@@ -1,0 +1,106 @@
+{
+	"contains": [
+		"node-contains",
+		{
+			"name": "within-element",
+			"version": "*",
+			"transform": "var w = require('within-element'); module.exports = function(a,b){return w(b,a);}"
+		}
+	],
+	"weakmap": [
+		"polymer-weakmap/weakmap"
+	],
+	"weakset": [
+		"weakset"
+	],
+	"emitter": [
+		"component-emitter",
+		"eventemitter",
+		"emitter-component",
+		"emmy"
+	],
+
+	"emmy/on": [
+		{
+			"name": "component-event",
+			"transform": "module.exports = require('component-event').bind"
+		}
+	],
+
+	"emmy/off": [
+		{
+			"name": "component-event",
+			"transform": "module.exports = require('component-event').unbind"
+		}
+	],
+
+	"mutype/is-object": [
+		"101/is-object"
+	],
+
+	"mutype/is-fn": [
+		"101/is-function",
+		"is-function"
+	],
+
+	"xtend": [
+		{
+			"name": "component-object",
+			"transform": "module.exports = require('component-object').merge"
+		}
+	],
+
+	"assert": [
+		"better-assert",
+		{
+			"name": "component-object",
+			"transform": "module.exports = require('chai').assert"
+		}
+	],
+
+
+	"jquery": [
+		"zepto"
+	],
+
+	"is-array": [
+		"mutype/is-array"
+	],
+
+	"is-number": [
+		"mutype/is-number",
+		"101/is-number",
+		"amp-is-number",
+		{
+			"name": "is",
+			"transform": "module.exports = require('is').number"
+		}
+	],
+
+
+	"mucss/offset": [
+		"document-offset",
+		{
+			"name": "jquery",
+			"transform": "module.exports = require('jquery').offset"
+		}
+	],
+
+	"inherits": [
+		"component-inherit",
+		"component-inherits",
+		{
+			"name": "util",
+			"transform": "module.exports = require('util').inherits",
+			"environment": "node"
+		}
+	],
+
+	"getprop": [
+		"keypath"
+	],
+
+	"independence": [
+		"huge", "list", "of", "dep", "injectors"
+	]
+}

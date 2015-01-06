@@ -25,7 +25,14 @@
     "replaceable",
     "changeable",
     "interchangeable",
-    "variant"
+    "variant",
+
+    "sdd",
+    "clone",
+    "duplication",
+    "similar code detection",
+    "duplicate detection",
+    "clone detection"
   ],
   "author": "Deema Ywanov",
   "license": "Unlicensed"

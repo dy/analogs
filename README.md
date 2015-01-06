@@ -2,19 +2,20 @@
 
 There are lots of similar packages in npm which basically do the same thing but are called differently, from large ones like _underscore_ / _lodash_ / _amp_ to small ones like _is_ / _is-function_ / _is-type_. Thousands of them.
 
-Such an overobundance creates a trouble for the end user choosing a proper alternative, as the difference between packages is not always clear. If package has a `readme`, it does not always has a comparison with alternatives or a list of unique features. The user can rely on rating, downloads, dependent packages and code metrics, and it may work.
+Such an overobundance creates a trouble for the end user choosing the proper alternative, as difference between packages is not always clear. If a package has a `readme`, it does not always has a comparison with alternatives or a list of unique features. The user can rely on rating, downloads, dependent packages and code metrics, and it may work.
 
-But the problem appears in bundling an app with browserify or alike. If the application has dependencies which innerly use different similar packages, that results in overbloated bundle, comprising all the equivalent packages. For example, this is the case for [components](https://github.com/component), if you use them within your app alongside with other modules: you can find that the final bundle contains some repeating stuff, which is already covered in your app by alternative packages.
+But the problem appears in browserifying an app. If the application has dependencies which innerly use different similar packages, that results in overbloated bundle, comprising all the equivalent packages.
 
 This repository is an attempt to collect and structurize synonimic npm packages and work out tools to manage package analogs.
 
-The main goal is to come up with a tool that can collapse synonimic dependencies in the final bundle according to specified criterias. That will reduce users concerns about what package to use within their modules, how to get minimal possible build size, whether the packages code is optimal and they don’t use unecessary modules. Also it will reduce npm’s entropy.
+The main goal is to come up with a tool that can collapse synonimic dependencies in the final bundle according to specified criterias. That will reduce users concerns about what package to use within their modules, how to get minimal possible build size, whether the packages code is optimal and doesn’t use unecessary modules. Also it will reduce npm’s entropy.
 
 
 # Cases
 
-* Unecessary packages, which can be easily excluded, like `debug`, `node-noop` or null-like.
+* Unecessary packages, which can be easily excluded, like `debug`, `node-noop` or other null-like.
 	→ Assess package proficiency, exclude useless ones
+	x Actually, it is easily avoidable via mcjs + ccjs advanced.
 * Polyfillable packages, like `contains`, `mathces-selector` or `mutation-observer`.
 	→ Find polyfillable packages, replace with polyfills
 * Copy-pasted package code instead of requiring a package.
@@ -22,6 +23,7 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 	→ Normalize chunk AST, find synonim from the dict of packages
 * Wrapped packages: AMD, CJS, closure.
 	→ Normalize requirement style
+	* Browserify transforms?
 * Code chunks synonimic to existing packages code.
 	→ Normalize chunks/branches
 * Heavyweight packages required only for a couple of functions, like jQuery for `ajax` or `css`.

@@ -30,38 +30,21 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 	* → Find used parts, replace with atomic stubs
 
 
-# Flow
-
-* Generalized, finding a package’s repeating inclusions in code is finging branches (chunks) in a source AST which are synonimic/equal to the branches from the dict (existing packages).
-	1. Transform source to AST.
-	2. Go from the stem, slice AST by one, get list of [code] branches.
-	3. For each branch
-		1. Normalize it’s code (find root form from the current synonim - inc. empty code).
-		2. Compare it with the dict of modules (existing branches), if it triggers true - suggest replace.
-
-* Autopolyfiller basically has the same resolution algorithm: it searches for specific inclusions and triggers polyfills to be inserted. Package detection could be done the same way: detected signatures triggers code chunk able to be replaced.
-
-*
-
-
 
 # Syntax
 
 ```json
 {
-	"package": "analog",
-	"package": "analog/submodule",
-	"package": ["analog1", "analog2", {
-		"name": "analog3",
-		"version": "*",
-		"polyfill": false,
-		"": ,
-		"transform": "var a = require('analog3'); module.exports = function(x,y){return a(y,x)}"
-	}],
-	"package": {
-		"analog1": "*",
-		"analog2": "0.2.2"
-	},
+	"package": [
+		"analog",
+		"analog/submodule",
+		{
+			"name": "analog",
+			"version": "*",
+			"": ,
+			"transform": "var a = require('analog'); module.exports = function(x,y){return a(y,x)}"
+		}
+	],
 	"package": {
 		"0.5.1": [
 			"analog1",
@@ -75,29 +58,7 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 }
 ```
 
-Read as "package <x> replaces [<y>, <z>]". This provides generalizing direction and is more natural for package developers, though with some exceptions (zepto / jquery).
-
-Note that backwise is not always possible. For example,
-
-```json
-{ "component-emitter": "emmy" }
-```
-
-is true, but
-
-```json
-{ "emmy": "component-emitter" }
-```
-
-is wrong in that `component-emitter` is not fully compliant with emmy.
-
-The same is with
-
-```json
-{ "assert": "better-assert", "chai/assert": "assert" }
-```
-
-, but not vice versa.
+Read as "package <x> replaces [<y>, <z>]". This provides generalizing direction and is more natural for package developers, as the new package basically extends/shims existing one. Note that backwise replacement is not always possible.
 
 
 # Parts
@@ -122,3 +83,27 @@ The same is with
 	* for currect project deps
 5. Apply equivalent deps set to a build.
 6. Side libs plugins: mcjs option, webpack plugin/loader, browserify plugin.
+
+
+
+
+# Flow
+
+* Generalized, finding a package’s repeating inclusions in code is finging branches (chunks) in a source AST which are synonimic/equal to the branches from the dict (existing packages).
+	* A trivial algorithm:
+		1. Transform source to AST.
+		2. Go from the stem, slice AST by one, get list of [code] branches.
+		3. For each branch
+			1. Normalize it’s code (find root form from the current synonim - inc. empty code).
+			2. Compare it with the dict of modules (existing branches), if it triggers true - suggest replace.
+	* [Suffix tree example](http://www.allisons.org/ll/AlgDS/Tree/Suffix/)
+	* [DECKARD](http://dl.acm.org/citation.cfm?id=1248843)
+	* [Clone algorithms digest](http://dl.acm.org/citation.cfm?id=1531101)
+
+* Autopolyfiller basically has the same resolution algorithm: it searches for specific inclusions and triggers polyfills to be inserted. Package detection could be done the same way: detected signatures triggers code chunk able to be replaced.
+
+* Package replacement is done via transform.
+	* It is similar to webpack-loaders technic.
+	* It creates some overhead, e. g. `withinElement` and `contains`.
+		* Find a way to avoid overhead?
+	* Transforms generalize package inclusion to any synonimic code, not only the

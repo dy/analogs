@@ -14,20 +14,20 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 # Cases
 
 * Unecessary packages, which can be easily excluded, like `debug`, `node-noop` or other null-like.
-	→ Assess package proficiency, exclude useless ones
-	x Actually, it is easily avoidable via mcjs + ccjs advanced.
+	* → Assess package proficiency, exclude useless ones
+	* x Actually, it is easily avoidable via mcjs + ccjs advanced.
 * Polyfillable packages, like `contains`, `mathces-selector` or `mutation-observer`.
-	→ Find polyfillable packages, replace with polyfills
+	* → Find polyfillable packages, replace with polyfills
 * Copy-pasted package code instead of requiring a package.
 * Code chunks repeating existing package functional, like `typeof x === y`.
-	→ Normalize chunk AST, find synonim from the dict of packages
+	* → Normalize chunk AST, find synonim from the dict of packages
 * Wrapped packages: AMD, CJS, closure.
-	→ Normalize requirement style
+	* → Normalize requirement style
 	* Browserify transforms?
 * Code chunks synonimic to existing packages code.
-	→ Normalize chunks/branches
+	* → Normalize chunks/branches
 * Heavyweight packages required only for a couple of functions, like jQuery for `ajax` or `css`.
-	→ Find used parts, replace with atomic stubs
+	* → Find used parts, replace with atomic stubs
 
 
 # Flow
@@ -36,8 +36,8 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 	1. Transform source to AST.
 	2. Go from the stem, slice AST by one, get list of [code] branches.
 	3. For each branch
-		3.1 Normalize it’s code (find root form from the current synonim - inc. empty code).
-		3.2 Compare it with the dict of modules (existing branches), if it triggers true - suggest replace.
+		1. Normalize it’s code (find root form from the current synonim - inc. empty code).
+		2. Compare it with the dict of modules (existing branches), if it triggers true - suggest replace.
 
 * Autopolyfiller basically has the same resolution algorithm: it searches for specific inclusions and triggers polyfills to be inserted. Package detection could be done the same way: detected signatures triggers code chunk able to be replaced.
 

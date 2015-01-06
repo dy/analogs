@@ -1,8 +1,8 @@
 # package-analogs <a href="UNLICENSE"><img src="http://upload.wikimedia.org/wikipedia/commons/6/62/PD-icon.svg" width="20"/></a>
 
-There are lots of similar packages in npm which basically do the same thing but are called differently, from large ones like _underscore_ / _lodash_ / _amp_ to small ones like _is_ / _is-function_ / _is-type_. Thousands of them.
+There are lots of similar packages in npm which basically do the same thing but are called differently, from large ones like **underscore / lodash / amp** to small ones like **is / is-function / is-type**. Thousands of them.
 
-Such an overobundance creates a trouble for the end user choosing the proper alternative, as difference between packages is not always clear. If a package has a `readme`, it does not always has a comparison with alternatives or a list of unique features. The user can rely on rating, downloads, dependent packages and code metrics, and it may work.
+Such an overobundance creates a trouble for the end user choosing the proper alternative, as difference between packages is not always clear. If a package has a `README`, it does not always has a comparison with alternatives or a list of unique features. The user can rely on rating, downloads, dependent packages and code metrics, and it may work.
 
 But the problem appears in browserifying an app. If the application has dependencies which innerly use different similar packages, that results in overbloated bundle, comprising all the equivalent packages.
 
@@ -63,7 +63,7 @@ Read as "package <x> replaces [<y>, <z>]". This provides generalizing direction 
 
 # Parts
 
-1. Find a list of possible analogs for a package
+1. Find a list of possible analogs for a package, or how package is synonimic to existing ones.
 	* npm search by tag
 	* indexed description
 	* code similarity
@@ -72,7 +72,7 @@ Read as "package <x> replaces [<y>, <z>]". This provides generalizing direction 
 		* AST similarity
 			* meta-names for tokens
 	* include inner packages search
-	1.1. Find according to the criterias from 4.
+	* Find by criterias from 4.
 2. Check a test over a list of packages (which passes/which are not)
 3. Assess each package: size, deps, tests compat, license type, test type, browser compat, env compat, codeclimate
 4. Deps minifier for a bundle
@@ -83,7 +83,7 @@ Read as "package <x> replaces [<y>, <z>]". This provides generalizing direction 
 	* for currect project deps
 5. Apply equivalent deps set to a build.
 6. Side libs plugins: mcjs option, webpack plugin/loader, browserify plugin.
-
+7. Bind packages trees with list of natural language terms better.
 
 
 

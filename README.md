@@ -1,15 +1,46 @@
 # package-analogs <a href="UNLICENSE"><img src="http://upload.wikimedia.org/wikipedia/commons/6/62/PD-icon.svg" width="20"/></a>
 
-There are lots of npm packages which basically do the same thing but are called differently. It ranges from large similar libs like _underscore_ / _lodash_ to small ones like _is_ / _is-function_ / _is-type_.
+There are lots of similar packages in npm which basically do the same thing but are called differently, from large ones like _underscore_ / _lodash_ / _amp_ to small ones like _is_ / _is-function_ / _is-type_. Thousands of them.
 
-The first trouble is that difference between alternative packages is not always clear for the end npm user. If a package readme is presented, it does not always include comparison with alternatives or description of unique features. User can rely on rating, downloads, dependent packages and code metrics to make a decision, and it may work for single separated module or app. But when it comes to use alongside with other packages within an application, there is another problem appears.
+Such an overobundance creates a trouble for the end user choosing a proper alternative, as the difference between packages is not always clear. If package has a `readme`, it does not always has a comparison with alternatives or a list of unique features. The user can rely on rating, downloads, dependent packages and code metrics, and it may work.
 
-The second problem is related with building tools, like browserify. If you have an app with a lot of dependencies, which innerly use different analogous packages, that results in overbloated bundle, including all the equivalent packages. For example, this is the case for [components](https://github.com/component), which tend to use own packages (called components). If you build components with browserify within your app, you’ll find yourself bundling tons of repeating stuff.
+But the problem appears in bundling an app with browserify or alike. If the application has dependencies which innerly use different similar packages, that results in overbloated bundle, comprising all the equivalent packages. For example, this is the case for [components](https://github.com/component), if you use them within your app alongside with other modules: you can find that the final bundle contains some repeating stuff, which is already covered in your app by alternative packages.
 
-The third problem applies for the case when a package has a huge dependencies and you can’t affect it in any way. Browserify allows you to stub or exclude packages you don’t wish to bundle, but it is not always a solution. This can be true for cases like
+This repository is an attempt to collect and structurize synonimic npm packages and work out tools to manage package analogs.
+
+The main goal is to come up with a tool that can collapse synonimic dependencies in the final bundle according to specified criterias. That will reduce users concerns about what package to use within their modules, how to get minimal possible build size, whether the packages code is optimal and they don’t use unecessary modules. Also it will reduce npm’s entropy.
 
 
-This repository is an attempt to collect and structurize similar npm packages and work out tools to work with package analogs.
+# Cases
+
+* Unecessary packages, which can be easily excluded, like `debug`, `node-noop` or null-like.
+	→ Assess package proficiency, exclude useless ones
+* Polyfillable packages, like `contains`, `mathces-selector` or `mutation-observer`.
+	→ Find polyfillable packages, replace with polyfills
+* Copy-pasted package code instead of requiring a package.
+* Code chunks repeating existing package functional, like `typeof x === y`.
+	→ Normalize chunk AST, find synonim from the dict of packages
+* Wrapped packages: AMD, CJS, closure.
+	→ Normalize requirement style
+* Code chunks synonimic to existing packages code.
+	→ Normalize chunks/branches
+* Heavyweight packages required only for a couple of functions, like jQuery for `ajax` or `css`.
+	→ Find used parts, replace with atomic stubs
+
+
+# Flow
+
+* Generalized, finding a package’s repeating inclusions in code is finging branches (chunks) in a source AST which are synonimic/equal to the branches from the dict (existing packages).
+	1. Transform source to AST.
+	2. Go from the stem, slice AST by one, get list of [code] branches.
+	3. For each branch
+		3.1 Normalize it’s code (find root form from the current synonim - inc. empty code).
+		3.2 Compare it with the dict of modules (existing branches), if it triggers true - suggest replace.
+
+* Autopolyfiller basically has the same resolution algorithm: it searches for specific inclusions and triggers polyfills to be inserted. Package detection could be done the same way: detected signatures triggers code chunk able to be replaced.
+
+*
+
 
 
 # Syntax
@@ -21,6 +52,8 @@ This repository is an attempt to collect and structurize similar npm packages an
 	"package": ["analog1", "analog2", {
 		"name": "analog3",
 		"version": "*",
+		"polyfill": false,
+		"": ,
 		"transform": "var a = require('analog3'); module.exports = function(x,y){return a(y,x)}"
 	}],
 	"package": {
@@ -40,7 +73,7 @@ This repository is an attempt to collect and structurize similar npm packages an
 }
 ```
 
-Read as "package <x> replaces [<y>, <z>]". This provides generalizing direction and is more natural for package developers, though with some exceptions (zepto).
+Read as "package <x> replaces [<y>, <z>]". This provides generalizing direction and is more natural for package developers, though with some exceptions (zepto / jquery).
 
 Note that backwise is not always possible. For example,
 
@@ -86,3 +119,4 @@ The same is with
 	* by license
 	* for currect project deps
 5. Apply equivalent deps set to a build.
+6. Side libs plugins: mcjs option, webpack plugin/loader, browserify plugin.

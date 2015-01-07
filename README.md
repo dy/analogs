@@ -15,7 +15,7 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 
 * Unecessary packages, which can be easily excluded, like `debug`, `node-noop` or other null-like.
 	* → Assess package proficiency, exclude useless ones
-	* x Actually, it is easily avoidable via mcjs + ccjs advanced.
+	* [x] Actually, it is easily avoidable via mcjs + ccjs advanced.
 * Polyfillable packages, like `contains`, `mathces-selector` or `mutation-observer`.
 	* → Find polyfillable packages, replace with polyfills
 * Copy-pasted package code instead of requiring a package.
@@ -37,28 +37,21 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 {
 	"package": [
 		"analog",
-		"analog/submodule",
+		"analog/sub",
 		{
 			"name": "analog",
 			"version": "*",
-			"": ,
 			"transform": "var a = require('analog'); module.exports = function(x,y){return a(y,x)}"
 		}
 	],
 	"package": {
-		"0.5.1": [
-			"analog1",
-			{
-				"name": "analog2",
-				"version": "^0.2.2"
-			}
-		],
-		"*": ["analog1", "analog2"]
+		">=0.5.1": ["analog1", "analog2@^0.2.0"],
+		"<0.5.1": ["analog1", "analog2@<=0.2.0"]
 	}
 }
 ```
 
-Read as "package <x> replaces [<y>, <z>]". This provides generalizing direction and is more natural for package developers, as the new package basically extends/shims existing one. Note that backwise replacement is not always possible.
+Read as "_package `x` replaces [`y`, `z`]_". This provides generalizing direction and is more natural for package developers, as the new package basically extends/shims existing one. Note that backwise replacement is not always possible.
 
 
 # Parts

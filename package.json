@@ -27,6 +27,8 @@
     "interchangeable",
     "variant",
 
+    "jscpd",
+    "cpd",
     "sdd",
     "clone",
     "duplication",

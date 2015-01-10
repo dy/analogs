@@ -11,20 +11,20 @@ This repository is an attempt to collect and structurize synonimic npm packages 
 The main goal is to come up with a tool that can collapse synonimic dependencies in the final bundle according to specified criterias. That will reduce users concerns about what package to use within their modules, how to get minimal possible build size, whether used packages code is optimal and doesn’t contain unecessary modules. Also it will reduce npm’s entropy.
 
 
-# Cases
+# Duplication cases
 
 * Unecessary packages, which can be easily excluded, like `debug`, `node-noop` or other null-like.
 	* → Detect dead code
-	* [x] Avoidable via mcjs + ccjs advanced.
+	* [x] Avoidable via [mcjs](https://github.com/dfcreative/mcjs) + [ccjs](https://github.com/dcodeIO/ClosureCompiler.js) advanced.
 * Polyfillable packages, like `contains`, `mathces-selector` or `mutation-observer`.
 	* → Find polyfillable packages, replace with polyfills
 	* [ ] Use transform using a polyfilled feature:
-	`module.exports = function contains(a,b){return a.contains(b))`. This feature will be automatically detected by autopolyfiller in resulting code.
+	`module.exports = function contains(a,b){return a.contains(b))`. This feature will be automatically detected by [autopolyfiller](https://github.com/azproduction/autopolyfiller) in resulting code.
 * Copy-pasted package code instead of requiring a package; code chunks repeating existing package functional, like `typeof x === y`.
 	* [ ] Use code clone detection, suggest replacing packages
 * Code chunks synonimic to existing packages (functionally, not syntactically).
-	* Only test can detect whether one lib is analogous to another, though partly. It’s too difficult for clone detector, even functional. E. g.
-	* [ ]
+	* Only test can detect whether one lib is analogous to another, though partly. It’s too difficult for clone detector, even functional. E. g. `debug/redebug`, `is-object`,...
+	* [ ] No solution yet
 * Wrapped packages: AMD, CJS, closure.
 	* Normalize requirement style. Ideally - ES6, as far it’s going to be a standard. unUMDify, unwrap, uncommon, - transform to ES6 form.
 	* [ ] 26: transform/unwrap any module/requirement to es6-style.
@@ -62,6 +62,8 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 
 
 # Syntax
+
+Possible syntax for precise describing analogs:
 
 ```json
 {
@@ -120,4 +122,3 @@ Read as "_package `x` replaces [`y`, `z`]_". This provides generalizing directio
 	* Edge-data - list of data for automated testing functions
 * Code-readability - restructurize code so to enhance readability order
 * Code-extract - leaves only the code needed for producing passed exports signature result.
-*

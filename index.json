@@ -96,6 +96,14 @@
 		}
 	],
 
+	"debug": [
+		"redebug"
+	],
+
+	"redebug": [
+		"debug"
+	],
+
 	"getprop": [
 		"keypath"
 	],

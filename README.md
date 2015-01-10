@@ -23,7 +23,7 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 * Copy-pasted package code instead of requiring a package; code chunks repeating existing package functional, like `typeof x === y`.
 	* [ ] Use code clone detection, suggest replacing packages
 * Code chunks synonimic to existing packages (functionally, not syntactically).
-	* Only test can detect whether one lib is analogous to another. Partly.
+	* Only test can detect whether one lib is analogous to another, though partly. It’s too difficult for clone detector, even functional. E. g.
 	* [ ]
 * Wrapped packages: AMD, CJS, closure.
 	* Normalize requirement style. Ideally - ES6, as far it’s going to be a standard. unUMDify, unwrap, uncommon, - transform to ES6 form.
@@ -108,7 +108,8 @@ Read as "_package `x` replaces [`y`, `z`]_". This provides generalizing directio
 	* for currect project deps
 5. Apply equivalent deps set to a build.
 6. Side libs plugins: mcjs option, webpack plugin/loader, browserify plugin.
-7. Bind packages trees with list of natural language terms better.
+7. Compare two similar packages (esp. by API).
+
 
 
 # Sub projects
@@ -118,4 +119,5 @@ Read as "_package `x` replaces [`y`, `z`]_". This provides generalizing directio
 	* Code-generalize - get generalized code chunk (literals are replaced)
 	* Edge-data - list of data for automated testing functions
 * Code-readability - restructurize code so to enhance readability order
-* Code-extractor - leaves only the code needed for producing passed exports signature result.
+* Code-extract - leaves only the code needed for producing passed exports signature result.
+*

@@ -1,4 +1,12 @@
 {
+	"assert": [
+		"better-assert",
+		{
+			"name":"chai",
+			"transform":"module.exports = require('chai').assert"
+		},
+		"power-assert"
+	],
 	"contains": [
 		"node-contains",
 		{
@@ -13,12 +21,16 @@
 	"weakset": [
 		"weakset"
 	],
+	"get-document": ["get-doc"],
+	"html-document": ["dom-lite","jsdom","simple-dom"],
 	"emitter": [
 		"component-emitter",
 		"eventemitter",
 		"emitter-component",
 		"emmy"
 	],
+
+	"arr-flatten": ["array-flatten", "amp-flatten"],
 
 	"emmy/on": [
 		{
@@ -34,8 +46,18 @@
 		}
 	],
 
+	"esprima": ["esprima", "recast", "falafel", "acorn"],
+	"escope": ["escope", "ast-scope", "scopup", "ecma-variable-scope", "periscope"],
+
 	"mutype/is-object": [
 		"101/is-object"
+	],
+
+	"array-uniq": ["uniq", "lodash.uniq", "uniq-component", "possible-array-uniq"],
+	"uniq-id": [
+		"gen-uid", "unique", "uid", "uid2", "uid-util", "micro-uid", "component-uid", "j-uid",
+		"unique-id", "uniqid", "short-uid", "puid", "amp-unique-id", "genuid",
+		"simple-uid", "random-id", "smart-id", "uuid-pure", "simple-random-id", "nid"
 	],
 
 	"mutype/is-fn": [
@@ -58,6 +80,8 @@
 		}
 	],
 
+	"query-component" : ["query-relative", "dom-select", "qwery", "domy-element", "querie"],
+
 
 	"jquery": [
 		"zepto"
@@ -76,6 +100,8 @@
 			"transform": "module.exports = require('is').number"
 		}
 	],
+
+	"mucss": ["mucss/css", "dom-style"],
 
 
 	"mucss/offset": [

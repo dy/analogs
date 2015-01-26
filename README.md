@@ -60,6 +60,8 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 
 * Code test is the final metric to check a code.
 
+* Replacing modules is basically mocking them. Take a look at `mock`, `node-mock`.
+
 
 # Syntax
 
@@ -116,9 +118,9 @@ Read as "_package `x` replaces [`y`, `z`]_". This provides generalizing directio
 
 # Sub projects
 
-* Code-synonim - test whether one code chunk is functionally equivalent to another chunk. Or rather assess code similarity (give percentage by criterias).
-	* Code-normalize - get normalized code chunk
-	* Code-generalize - get generalized code chunk (literals are replaced)
-	* Edge-data - list of data for automated testing functions
-* Code-readability - restructurize code so to enhance readability order
-* Code-extract - leaves only the code needed for producing passed exports signature result.
+* [ ] Code-synonim - test whether one code chunk is functionally equivalent to another chunk. Or rather assess code similarity (give percentage by criterias).
+	* [ ] Code-normalize - get normalized code chunk
+	* [ ] Code-generalize - get generalized code chunk (literals are replaced)
+	* [ ] Edge-data - list of data for automated testing functions
+* [ ] Code-readability - restructurize code so to enhance readability order
+* [ ] Code-extract - leaves only the code needed for producing passed exports signature result.

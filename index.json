@@ -22,7 +22,7 @@
 		"weakset"
 	],
 	"get-document": ["get-doc"],
-	"html-document": ["dom-lite","jsdom","simple-dom"],
+	"html-document": ["dom-lite","jsdom","jsdom-nocontextifiy", "simple-dom", "micro-dom", "min-document"],
 	"emitter": [
 		"component-emitter",
 		"eventemitter",
@@ -63,6 +63,15 @@
 	"mutype/is-fn": [
 		"101/is-function",
 		"is-function"
+	],
+
+	"matches-selector": [
+		"matches-selector-2",
+		"component-matches-selector",
+		"matches-selector-shim",
+		"matches-dom-selector",
+		"desandro-matches-selector",
+		"queried@matches"
 	],
 
 	"xtend": [

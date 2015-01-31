@@ -62,26 +62,26 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 
 * Replacing modules is basically mocking them. Take a look at `mock`, `node-mock`.
 
+* Package developers are responsible for picking proper analogs to their package. So it should be a `analogs` field in package.json, containing statements accordind to the syntax.
+	* That way excludes need in version respondance - current version includes actual analogs.
+
 
 # Syntax
 
-Possible syntax for precise describing analogs:
+Syntax for precise describing analogs:
 
 ```json
 {
-	"package": [
+	"analogs": [
 		"analog",
 		"analog/sub",
 		{
 			"name": "analog",
 			"version": "*",
 			"transform": "var a = require('analog'); module.exports = function(x,y){return a(y,x)}"
-		}
-	],
-	"package": {
-		">=0.5.1": ["analog1", "analog2@^0.2.0"],
-		"<0.5.1": ["analog1", "analog2@<=0.2.0"]
-	}
+		},
+		"analog@^0.2.0"
+	]
 }
 ```
 
@@ -124,3 +124,5 @@ Read as "_package `x` replaces [`y`, `z`]_". This provides generalizing directio
 	* [ ] Edge-data - list of data for automated testing functions
 * [ ] Code-readability - restructurize code so to enhance readability order
 * [ ] Code-extract - leaves only the code needed for producing passed exports signature result.
+* [ ] Eseval - eval dead code branches
+* [ ] analogs online picker - site similar to kangax es6 table, but with package analogs, manually picked.

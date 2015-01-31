@@ -15,7 +15,9 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 
 * Unecessary packages, which can be easily excluded, like `debug`, `node-noop` or other null-like.
 	* → Detect dead code
-	* [x] Avoidable via [mcjs](https://github.com/dfcreative/mcjs) + [ccjs](https://github.com/dcodeIO/ClosureCompiler.js) advanced.
+	* [ ] Avoidable via [mcjs](https://github.com/dfcreative/mcjs) + [ccjs](https://github.com/dcodeIO/ClosureCompiler.js) advanced.
+		* How?
+	* [ ] Compose a list of dead packages.
 * Polyfillable packages, like `contains`, `mathces-selector` or `mutation-observer`.
 	* → Find polyfillable packages, replace with polyfills
 	* [ ] Use transform using a polyfilled feature:
@@ -24,13 +26,14 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 	* [ ] Use code clone detection, suggest replacing packages
 * Code chunks synonimic to existing packages (functionally, not syntactically).
 	* Only test can detect whether one lib is analogous to another, though partly. It’s too difficult for clone detector, even functional. E. g. `debug/redebug`, `is-object`,...
-	* [ ] No solution yet
+	* [ ] Manual picked analogs
+	* [ ] Cross-testing
 * Wrapped packages: AMD, CJS, closure.
 	* Normalize requirement style. Ideally - ES6, as far it’s going to be a standard. unUMDify, unwrap, uncommon, - transform to ES6 form.
 	* [ ] 26: transform/unwrap any module/requirement to es6-style.
 * Heavyweight packages required only for a couple of functions, like jQuery for `ajax` or `css`, `husl` without extra conversions (within color-space), or `chai.assert`.
 	* → Find used parts, replace with atomic stubs
-	* [ ] A tool removing all the code except for passed export signature, like `$.isArray`.
+	* [ ] [esextract](https://github.com/dfcreative/esextract) - a tool removing all the code except for passed export signature, like `$.isArray`.
 
 
 # Flow
@@ -52,7 +55,7 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 	* It is similar to webpack-loaders technic.
 	* It creates some overhead, e. g. `withinElement` and `contains`.
 		* Find a way to avoid overhead?
-	* Transforms generalize package inclusion to any synonimic code, not only the
+	* Transforms generalize package inclusion to any synonimic code.
 
 * Code clone detection is only a part of the whole system: it can’t detect that zepto is equivalent to jquery. It is needed for:
 	* Detecting inlined sources
@@ -66,26 +69,27 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 	* That way excludes need in version respondance - current version includes actual analogs.
 
 
-# Syntax
+# `analogs` field in package.json
 
 Syntax for precise describing analogs:
 
 ```json
-{
-	"analogs": [
-		"analog",
-		"analog/sub",
-		{
-			"name": "analog",
-			"version": "*",
-			"transform": "var a = require('analog'); module.exports = function(x,y){return a(y,x)}"
-		},
-		"analog@^0.2.0"
-	]
-}
+"analogs": [
+	"analog",
+	"analog/sub",
+	"analog@^0.2.0",
+	{
+		"name": "analog/adapter",
+		"version": "*",
+		"code": "var a = require('analog'); module.exports = function(x,y){return a(y,x)}"
+	},
+	{
+		"code": "//just shim for useless modules"
+	}
+]
 ```
 
-Read as "_package `x` replaces [`y`, `z`]_". This provides generalizing direction and is more natural for package developers, as a new package basically extends/shims existing one. Note that backwise replacement is not always possible.
+Read as "_package `x` replaces analogs `y`, `z`_". This provides generalizing direction and is more natural for package developers, as a new package basically extends/shims existing one. Note that backwise replacement is not always possible.
 
 
 # Parts

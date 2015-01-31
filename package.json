@@ -1,5 +1,5 @@
 {
-  "name": "equiv",
+  "name": "package-analogs",
   "version": "0.0.0",
   "description": "A collection of replaceable packages",
   "main": "index.js",

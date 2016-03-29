@@ -7,6 +7,10 @@
 		},
 		"power-assert"
 	],
+	"color": ["tinycolor2", "onecolor", "sumi-color", "color-js", "jquery-color", "color-forge", "chroma-js", "colorjs", "warna", "kolor", "colors.js", "rgbcolor", "tinytinycolor", "chameleon-js", "colorama", "alchemist-js", ],
+	"esrecurse": ["ast-types"],
+	"ast-redeclare": ["ast-hoist", "hoister"],
+	"satellite": "placer",
 	"contains": [
 		"node-contains",
 		{
@@ -15,6 +19,12 @@
 			"transform": "var w = require('within-element'); module.exports = function(a,b){return w(b,a);}"
 		}
 	],
+	"uneval": ["tosource"],
+	"closest": [
+		"findup-element",
+		"component-closest"
+	],
+	"component-cookie": ["mmm-cookies", "cookie-monster", "cookie-cutter"],
 	"weakmap": [
 		"polymer-weakmap/weakmap"
 	],
@@ -97,8 +107,12 @@
 	],
 
 	"is-array": [
-		"mutype/is-array"
+		"mutype/is-array",
+		"an-array",
+		"isarray"
 	],
+
+	"clamp": [],
 
 	"is-number": [
 		"mutype/is-number",

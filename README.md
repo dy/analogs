@@ -1,10 +1,12 @@
 # package-analogs <a href="UNLICENSE"><img src="http://upload.wikimedia.org/wikipedia/commons/6/62/PD-icon.svg" width="20"/></a>
 
-There are lots of similar packages in npm which basically do the same thing but are called differently, from large ones like **underscore / lodash / amp** to small ones like **is / is-function / is-type**. Thousands of them.
+There are lots of similar packages in npm which basically do the same thing but are called differently, from large ones like **underscore / lodash / amp** to atomic like **is / is-function / is-type**. Thousands of them.
 
-Such an overobundance creates a trouble for the end user choosing the proper alternative, as difference between packages is not always clear. If a package has a `README`, it does not always has a comparison with alternatives or a list of unique features. The user can rely on rating, downloads, dependent packages and code metrics, and it may work.
+Such an overobundance creates a trouble for the end user choosing the proper alternative, as the difference between packages is not always clear. If a package has a `README`, it does not always has a comparison with alternatives or a list of unique features. The user can rely on rating, downloads, dependent packages and code metrics, and other empiric params, and it may work, though it is work.
 
-But the problem appears in browserifying an app. If the application has dependencies which innerly use different similar packages, that results in overbloated bundle, comprising all the equivalent packages.
+A problem appears in browserifying an app. If the application has dependencies which innerly use different similar packages, that results in overbloated bundle, comprising all the equivalent packages. With npm@3 that issue is less acute as it unfolds dep structure, but still, if some package use bundled version, it results in repeated chunks.
+
+Also taking as an example the @azer’s case - having list of analogous packages would alleviate that situation.
 
 This repository is an attempt to collect and structurize synonimic npm packages and work out tools to manage package analogs.
 
@@ -18,7 +20,7 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 	* [ ] Avoidable via [mcjs](https://github.com/dfcreative/mcjs) + [ccjs](https://github.com/dcodeIO/ClosureCompiler.js) advanced.
 		* How?
 	* [ ] Compose a list of dead packages.
-* Polyfillable packages, like `contains`, `mathces-selector` or `mutation-observer`.
+* Polyfillable packages, like `contains`, `matches-selector` or `mutation-observer`.
 	* → Find polyfillable packages, replace with polyfills
 	* [ ] Use transform using a polyfilled feature:
 	`module.exports = function contains(a,b){return a.contains(b))`. This feature will be automatically detected by [autopolyfiller](https://github.com/azproduction/autopolyfiller) in resulting code.
@@ -33,7 +35,7 @@ The main goal is to come up with a tool that can collapse synonimic dependencies
 	* [ ] 26: transform/unwrap any module/requirement to es6-style.
 * Heavyweight packages required only for a couple of functions, like jQuery for `ajax` or `css`, `husl` without extra conversions (within color-space), or `chai.assert`.
 	* → Find used parts, replace with atomic stubs
-	* [ ] [esextract](https://github.com/dfcreative/esextract) - a tool removing all the code except for passed export signature, like `$.isArray`.
+	* [ ] [esextract](https://github.com/dfcreative/esextract) - a tool removing all the code except for passed export signature, like `$.isArray`. Like tree shaking.
 
 
 # Flow

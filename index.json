@@ -1,4 +1,5 @@
 {
+	"runpkg.com": ["npmfs"],
 	"assert": [
 		"better-assert",
 		{

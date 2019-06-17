@@ -1,4 +1,26 @@
 {
+	"hyperscript": [
+		https://github.com/hyperhype/hyperscript,
+		https://github.com/developit/vhtml,
+		https://github.com/dmitriz/hyperscript-strict,
+		https://github.com/snabbdom/snabbdom,
+		https://github.com/ahdinosaur/hyps,
+		https://github.com/skatejs/val,
+		https://github.com/mmckegg/mutant#htmlelement--h,
+		https://www.npmjs.com/package/virtual-dom,
+		react-hyperscript,
+		https://github.com/Raynos/mercury,
+		https://github.com/Matt-Esch/virtual-dom/tree/master/virtual-hyperscript,
+		https://github.com/queckezz/elementx,
+		https://github.com/tunnckoCore/mich-h,
+		https://github.com/syntax-tree/hastscript
+	],
+	"morphdom": [
+		"diffhtml",
+		"nanomorph",
+		"snabbdom"
+	],
+	hyperx: [htm, nanohtml],
 	"runpkg.com": ["npmfs"],
 	"assert": [
 		"better-assert",

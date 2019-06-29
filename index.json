@@ -1,4 +1,8 @@
 {
+	"microbundle": [
+		"parcel",
+		"pika/pack"
+	],
 	"hyperscript": [
 		https://github.com/hyperhype/hyperscript,
 		https://github.com/developit/vhtml,

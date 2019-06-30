@@ -2,6 +2,13 @@
 	"microbundle": [
 		"parcel",
 		"pika/pack"
+		"babel",
+		"swc",
+		"webrunify",
+		"fastpack",
+		"pax",
+		"fuse box",
+		"nexe"
 	],
 	"hyperscript": [
 		https://github.com/hyperhype/hyperscript,

@@ -1,4 +1,8 @@
 {
+	"react": [
+		https://github.com/alibaba/rax,
+		preact
+	],
 	"microbundle": [
 		"parcel",
 		"pika/pack"

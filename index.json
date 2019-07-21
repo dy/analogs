@@ -5,7 +5,7 @@
 		"babel",
 		"swc",
 		"webrunify",
-		"fastpack",
+		"https://github.com/fastpack/fastpack",
 		"pax",
 		"fuse box",
 		"nexe"

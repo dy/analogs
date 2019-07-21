@@ -1,5 +1,6 @@
 # package-analogs <a href="UNLICENSE"><img src="http://upload.wikimedia.org/wikipedia/commons/6/62/PD-icon.svg" width="20"/></a>
 
+<!--
 There are lots of similar packages in npm which basically do the same thing but are called differently, from large ones like **underscore / lodash / amp** to atomic like **is / is-function / is-type**. Thousands of them.
 
 Such an overobundance creates a trouble for the end user choosing the proper alternative, as the difference between packages is not always clear. If a package has a `README`, it does not always has a comparison with alternatives or a list of unique features. The user can rely on rating, downloads, dependent packages and code metrics, and other empiric params, and it may work, though it is work.
@@ -132,3 +133,5 @@ Read as "_package `x` replaces analogs `y`, `z`_". This provides generalizing di
 * [ ] Code-extract - leaves only the code needed for producing passed exports signature result.
 * [ ] Eseval - eval dead code branches
 * [ ] analogs online picker - site similar to kangax es6 table, but with package analogs, manually picked.
+
+-->

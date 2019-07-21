@@ -1,4 +1,288 @@
-# package-analogs <a href="UNLICENSE"><img src="http://upload.wikimedia.org/wikipedia/commons/6/62/PD-icon.svg" width="20"/></a>
+# package-analogs
+
+## react
+
+[rax](https://github.com/alibaba/rax)
+[preact](https://ghub.io/preact)
+
+## microbundle
+
+[parcel](https://ghub.io/parcel)
+[pika/pack](https://ghub.io/pika/pack)
+[babel](https://ghub.io/babel)
+[swc](https://ghub.io/swc)
+[webrunify](https://ghub.io/webrunify)
+[fastpack](https://ghub.io/https://github.com/fastpack/fastpack)
+[pax](https://ghub.io/pax)
+[fuse box](https://ghub.io/fuse box)
+[nexe](https://ghub.io/nexe)
+
+
+## hyperscript
+
+[hyperscript](https://github.com/hyperhype/hyperscript)
+[vhtml](https://github.com/developit/vhtml)
+[hyperscript-strict](https://github.com/dmitriz/hyperscript-strict)
+[snabbdom](https://github.com/snabbdom/snabbdom)
+[hyps](https://github.com/ahdinosaur/hyps)
+[val](https://github.com/skatejs/val)
+[mutant](https://github.com/mmckegg/mutant#htmlelement--h)
+[virtual-dom](https://www.npmjs.com/package/virtual-dom)
+[react-hyperscript](https://ghub.io/react-hyperscript)
+[mercury](https://github.com/Raynos/mercury)
+[virtual-hyperscript](https://github.com/Matt-Esch/virtual-dom/tree/master/virtual-hyperscript)
+[elementx](https://github.com/queckezz/elementx)
+[mich-h](https://github.com/tunnckoCore/mich-h)
+[hastscript](https://github.com/syntax-tree/hastscript)
+
+
+## morphdom
+
+[diffhtml](https://ghub.io/diffhtml)
+[nanomorph](https://ghub.io/nanomorph)
+[snabbdom](https://ghub.io/snabbdom)
+
+## hyperx
+
+htm
+nanohtml
+
+## runpkg.com
+
+npmfs
+
+## assert
+
+better-assert
+chai
+power-assert
+
+## color
+
+tinycolor2
+onecolor
+sumi-color
+color-js
+jquery-color
+color-forge
+chroma-js
+colorjs
+warna
+kolor
+colors.js
+rgbcolor
+tinytinycolor
+chameleon-js
+colorama
+alchemist-js
+
+## esrecurse
+
+ast-types
+
+## ast-redeclare
+
+ast-hoist
+hoister
+
+## satellite
+
+placer
+
+## contains
+
+node-contains
+within-element
+
+## uneval
+
+tosource
+
+## closest
+
+findup-element
+component-closest
+
+## component-cookie
+
+mmm-cookies
+cookie-monster
+cookie-cutter
+
+## weakmap
+
+polymer-weakmap/weakmap
+
+## get-document
+
+get-doc
+global
+
+## html-document
+
+dom-lite
+jsdom
+jsdom-nocontextifiy
+simple-dom
+micro-dom
+min-document
+
+## emitter
+
+component-emitter
+eventemitter
+emitter-component
+emmy
+
+## arr-flatten
+
+array-flatten
+amp-flatten
+
+## emmy/on
+
+component-event
+
+## emmy/off
+
+component-event
+
+## esprima
+
+esprima
+recast
+falafel
+acorn
+
+## escope
+
+escope
+ast-scope
+scopup
+ecma-variable-scope
+periscope
+
+## mutype/is-object
+
+101/is-object
+
+## array-uniq
+
+uniq
+lodash.uniq
+uniq-component
+possible-array-uniq
+
+## uniq-id
+
+gen-uid
+unique
+uid
+uid2
+uid-util
+micro-uid
+component-uid
+j-uid
+unique-id
+uniqid
+short-uid
+puid
+amp-unique-id
+genuid
+simple-uid
+random-id
+smart-id
+uuid-pure
+simple-random-id
+nid
+
+## mutype/is-fn
+
+101/is-function
+is-function
+
+## matches-selector
+
+matches-selector-2
+component-matches-selector
+matches-selector-shim
+matches-dom-selector
+desandro-matches-selector
+queried@matches
+
+## xtend
+
+component-object
+object-assign
+
+## assert
+
+better-assert
+component-object
+
+## query-component
+
+query-relative
+dom-select
+qwery
+domy-element
+querie
+
+## jquery
+
+zepto
+
+## is-array
+
+mutype/is-array
+an-array
+isarray
+
+## clamp
+
+## is-number
+
+mutype/is-number
+101/is-number
+amp-is-number
+is
+
+## mucss
+
+mucss/css
+dom-style
+
+## mucss/offset
+
+	document-offset
+	jquery
+
+## inherits
+
+component-inherit
+component-inherits
+util
+
+## debug
+
+redebug
+
+## redebug
+
+debug
+
+## getprop
+
+keypath
+dotprop
+idx
+dot-prop
+dlv
+
+## independence
+
+Lots of deps injectors
+
 
 <!--
 There are lots of similar packages in npm which basically do the same thing but are called differently, from large ones like **underscore / lodash / amp** to atomic like **is / is-function / is-type**. Thousands of them.

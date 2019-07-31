@@ -254,8 +254,8 @@
 
 ## mucss/offset
 
-	document-offset
-	jquery
+* document-offset
+* jquery
 
 ## inherits
 
@@ -282,6 +282,11 @@
 ## independence
 
 * Lots of deps injectors
+
+## placer
+
+* [positionining](https://github.com/mattlewis92/positioning#readme)
+* popper
 
 
 <!--

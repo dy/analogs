@@ -35,6 +35,13 @@
 * [mich-h](https://github.com/tunnckoCore/mich-h)
 * [hastscript](https://github.com/syntax-tree/hastscript)
 
+## incremental-dom, html builders, vdom-like
+
+* [incremental-dom]()
+* [html-chain](https://github.com/maael/html-chain)
+* [scriber](https://jccazeaux.github.io/scriber/)
+* [domchanger](https://github.com/creationix/domchanger)
+* [shaven](https://github.com/ad-si/shaven)
 
 ## morphdom
 
@@ -50,6 +57,11 @@
 ## runpkg.com
 
 * npmfs
+
+## normalize.css
+
+* [picnic](https://github.com/franciscop/picnic)
+* [clrs](http://clrs.cc/)
 
 ## assert
 
@@ -139,11 +151,7 @@
 * array-flatten
 * amp-flatten
 
-## emmy/on
-
-* component-event
-
-## emmy/off
+## emmy
 
 * component-event
 
@@ -231,6 +239,30 @@
 ## jquery
 
 * zepto
+* [cheerio](https://github.com/cheeriojs/cheerio)
+* [cash](https://github.com/kenwheeler/cash)
+* [tiny-style](https://github.com/DavidTimms/tiny-style)
+* [jbone](https://github.com/kupriyanenko/jbone)
+* [domstatic](https://github.com/webpro/DOMtastic)
+* [min.js](https://github.com/remy/min.js)
+* [laroux](https://github.com/eserozvataf/laroux.js)
+* [cash](https://github.com/kenwheeler/cash)
+* [umbrellajs](https://www.npmjs.com/package/umbrellajs)
+* [bliss](https://github.com/leaverou/bliss/)
+* [NodeList](https://github.com/eorroe/NodeList.js)
+* [ki](https://github.com/dciccale/ki.js/blob/master/ki.js)
+* [miq](https://bitstorm.org/javascript/miq/)
+* [psquery](https://github.com/pseudosavant/psQuery)
+* [balalaika](https://github.com/finom/balalaika)
+* [bala](https://github.com/finom/bala)
+* [metamorph](https://github.com/tomhuda/metamorph.js)
+* [aph](https://github.com/kaisermann/aph)
+* [dollardom](https://github.com/julienw/dollardom)
+* [sul](https://github.com/MrOnlineCoder/sul.js)
+
+## frp, observable
+
+* [defi](https://github.com/defijs/defi)
 
 ## is-array
 
@@ -255,7 +287,7 @@
 ## mucss/offset
 
 * document-offset
-* jquery
+* jquery.offset
 
 ## inherits
 

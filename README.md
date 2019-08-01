@@ -156,6 +156,7 @@
 
 * array-flatten
 * amp-flatten
+* Array.prototype.flat
 
 ## emmy
 
@@ -269,6 +270,9 @@
 ## frp, observable
 
 * [defi](https://github.com/defijs/defi)
+* [on-change](https://github.com/sindresorhus/on-change)
+* [atama](https://github.com/franciscop/atama)
+* [introspected](https://github.com/WebReflection/introspected)
 
 ## is-array
 

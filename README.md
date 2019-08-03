@@ -112,6 +112,10 @@
 * node-contains
 * within-element
 
+## [satisfy](https://github.com/padolsey/satisfy)
+
+* [emmet](https://github.com/emmetio/emmet)
+
 ## uneval
 
 * tosource

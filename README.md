@@ -115,6 +115,7 @@
 ## [satisfy](https://github.com/padolsey/satisfy)
 
 * [emmet](https://github.com/emmetio/emmet)
+* [selector-to-tag](https://github.com/surdu/selector-to-tag)
 
 ## uneval
 

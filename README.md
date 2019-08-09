@@ -20,8 +20,9 @@
 * [webrunify](https://ghub.io/webrunify)
 * [fastpack](https://ghub.io/https://github.com/fastpack/fastpack)
 * [pax](https://ghub.io/pax)
-* [fuse box](https://ghub.io/fuse box)
+* [fuse box](https://ghub.io/fuse-box)
 * [nexe](https://ghub.io/nexe)
+* [sucrace](https://github.com/alangpierce/sucrase)
 
 
 ## hyperscript
@@ -149,6 +150,7 @@
 * simple-dom
 * micro-dom
 * min-document
+* [nodom](https://github.com/redom/nodom)
 
 ## emitter
 

@@ -41,6 +41,7 @@
 * [elementx](https://github.com/queckezz/elementx)
 * [mich-h](https://github.com/tunnckoCore/mich-h)
 * [hastscript](https://github.com/syntax-tree/hastscript)
+* [html-tag](https://www.npmjs.com/package/html-tag)
 
 ## incremental-dom, html builders, vdom-like
 

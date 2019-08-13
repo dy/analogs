@@ -159,16 +159,16 @@
 * eventemitter
 * emitter-component
 * emmy
+* enot
+* on-off
+* component-event
+* [on-off](https://github.com/fregante/on-off)
 
 ## arr-flatten
 
 * array-flatten
 * amp-flatten
 * Array.prototype.flat
-
-## emmy
-
-* component-event
 
 ## esprima
 
@@ -274,6 +274,8 @@
 * [aph](https://github.com/kaisermann/aph)
 * [dollardom](https://github.com/julienw/dollardom)
 * [sul](https://github.com/MrOnlineCoder/sul.js)
+* [select-dom](https://github.com/fregante/select-dom)
+* [get-elements-array](https://github.com/fregante/get-elements-array)
 
 ## frp, observable
 
@@ -359,6 +361,13 @@
 * [tap](https://ghub.io/tap)
 * [zora](https://github.com/lorenzofox3/zora/issues/16#issuecomment-383876913)
 * [ava](https://ghub.io/ava)
+
+## tuple
+
+* [many-keys-map](https://github.com/fregante/many-keys-map)
+* [many-keys-weakmap](https://github.com/fregante/many-keys-weakmap)
+* tuplerone
+
 
 <!--
 * There are lots of similar packages in npm which basically do the same thing but are called differently, from large ones like **underscore / lodash / amp** to atomic like **is / is-function / is-type**. Thousands of them.

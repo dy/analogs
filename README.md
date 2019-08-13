@@ -353,6 +353,13 @@
 
 * [regular-elements](https://github.com/WebReflection/regular-elements)
 
+## tape
+
+* [tst](https://ghub.io/tst)
+* [tap](https://ghub.io/tap)
+* [zora](https://github.com/lorenzofox3/zora/issues/16#issuecomment-383876913)
+* [ava](https://ghub.io/ava)
+
 <!--
 * There are lots of similar packages in npm which basically do the same thing but are called differently, from large ones like **underscore / lodash / amp** to atomic like **is / is-function / is-type**. Thousands of them.
 

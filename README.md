@@ -153,6 +153,11 @@
 * min-document
 * [nodom](https://github.com/redom/nodom)
 
+## [multikey](https://www.npmjs.com/package/multikey)
+
+* [multikey-map](https://www.npmjs.com/package/multikey-map)
+* [many-keys-map](https://www.npmjs.com/package/element-ready)
+
 ## emitter
 
 * component-emitter
@@ -350,6 +355,7 @@
 
 * fast-on-load
 * disconnected
+* [element-ready](https://www.npmjs.com/package/element-ready)
 
 ## selector-observer
 

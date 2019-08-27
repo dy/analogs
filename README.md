@@ -11,6 +11,10 @@
 * [rax](https://github.com/alibaba/rax)
 * [preact](https://ghub.io/preact)
 
+## augmentor
+
+* dom-augmentor
+
 ## microbundle
 
 * [parcel](https://ghub.io/parcel)

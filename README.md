@@ -376,6 +376,11 @@
 * [zora](https://github.com/lorenzofox3/zora/issues/16#issuecomment-383876913)
 * [ava](https://ghub.io/ava)
 
+## [tape-run](https://ghub.io/tape-run)
+
+* [browser-run](https://www.npmjs.com/package/browser-run)
+* [browser-env](https://ghub.io/browser-env) with `node -r esm -r ./test/register.js test/index.js`
+
 ## tuple
 
 * [many-keys-map](https://github.com/fregante/many-keys-map)

@@ -150,14 +150,14 @@
 * get-doc
 * global
 
-## html-document
+## [html-document](https://ghub.io/html-document)
 
-* dom-lite
-* jsdom
+* [dom-lite](https://ghub.io/dom-lite)
+* [jsdom](https://ghub.io/jsdom)
 * jsdom-nocontextifiy
 * simple-dom
 * micro-dom
-* min-document
+* [min-document](https://github.com/Raynos/min-document)
 * [nodom](https://github.com/redom/nodom)
 
 ## [multikey](https://www.npmjs.com/package/multikey)

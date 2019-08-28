@@ -14,6 +14,8 @@
 ## augmentor
 
 * dom-augmentor
+* preact hooks
+* react hooks
 
 ## microbundle
 
@@ -54,6 +56,7 @@
 * [scriber](https://jccazeaux.github.io/scriber/)
 * [domchanger](https://github.com/creationix/domchanger)
 * [shaven](https://github.com/ad-si/shaven)
+* [tusk](https://github.com/DylanPiercey/tusk)
 
 ## morphdom
 

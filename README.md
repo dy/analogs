@@ -1,4 +1,4 @@
-# package-analogs
+# analogs
 
 ## [theme-ui](https://system-ui.com/theme/)
 
@@ -387,6 +387,10 @@
 * [many-keys-weakmap](https://github.com/fregante/many-keys-weakmap)
 * tuplerone
 
+## [funding](https://github.com/feross/funding)
+
+* [open-funding](https://github.com/ralphtheninja/open-funding)
+* [feedopensource](https://github.com/dominictarr/feedopensource)
 
 <!--
 * There are lots of similar packages in npm which basically do the same thing but are called differently, from large ones like **underscore / lodash / amp** to atomic like **is / is-function / is-type**. Thousands of them.

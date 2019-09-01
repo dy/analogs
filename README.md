@@ -10,6 +10,7 @@
 
 * [rax](https://github.com/alibaba/rax)
 * [preact](https://ghub.io/preact)
+* [inferno](https://ghub.io/inferno)
 
 ## augmentor
 
@@ -296,6 +297,7 @@
 * [atama](https://github.com/franciscop/atama)
 * [introspected](https://github.com/WebReflection/introspected)
 * [icaro](https://github.com/GianlucaGuarini/icaro)
+* [fp-ts](https://github.com/gcanti/fp-ts)
 
 ## is-array
 

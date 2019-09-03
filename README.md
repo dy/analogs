@@ -371,6 +371,7 @@
 ## selector-observer
 
 * [regular-elements](https://github.com/WebReflection/regular-elements)
+* [watched](https://www.npmjs.com/package/watched)
 
 ## tape
 

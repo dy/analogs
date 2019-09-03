@@ -379,6 +379,7 @@
 * [tap](https://ghub.io/tap)
 * [zora](https://github.com/lorenzofox3/zora/issues/16#issuecomment-383876913)
 * [ava](https://ghub.io/ava)
+* [tapes](https://www.npmjs.com/package/tapes)
 
 ## [tape-run](https://ghub.io/tape-run)
 

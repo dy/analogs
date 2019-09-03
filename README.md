@@ -272,6 +272,7 @@
 * [tiny-style](https://github.com/DavidTimms/tiny-style)
 * [jbone](https://github.com/kupriyanenko/jbone)
 * [domstatic](https://github.com/webpro/DOMtastic)
+* [parasitejs](https://www.npmjs.com/package/parasitejs)
 * [min.js](https://github.com/remy/min.js)
 * [laroux](https://github.com/eserozvataf/laroux.js)
 * [cash](https://github.com/kenwheeler/cash)

@@ -391,7 +391,11 @@
 
 * [many-keys-map](https://github.com/fregante/many-keys-map)
 * [many-keys-weakmap](https://github.com/fregante/many-keys-weakmap)
-* tuplerone
+* [tuplerone](https://ghub.io/tuplerone)
+* [multi-key-cache](https://www.npmjs.com/package/multi-key-cache)
+* [multikey](https://www.npmjs.com/package/multikey)
+* [composite-key-weakmap](https://www.npmjs.com/package/@allex/composite-key-weakmap)
+* [compositekey](https://www.npmjs.com/package/@bradleymeck/compositekey)
 
 ## [funding](https://github.com/feross/funding)
 

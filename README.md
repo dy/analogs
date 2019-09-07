@@ -113,10 +113,6 @@
 * ast-hoist
 * hoister
 
-## satellite
-
-* placer
-
 ## contains
 
 * node-contains
@@ -161,10 +157,6 @@
 * [min-document](https://github.com/Raynos/min-document)
 * [nodom](https://github.com/redom/nodom)
 
-## [multikey](https://www.npmjs.com/package/multikey)
-
-* [multikey-map](https://www.npmjs.com/package/multikey-map)
-* [many-keys-map](https://www.npmjs.com/package/element-ready)
 
 ## emitter
 
@@ -335,10 +327,6 @@
 
 * redebug
 
-## redebug
-
-* debug
-
 ## getprop
 
 * keypath
@@ -355,6 +343,7 @@
 
 * [positionining](https://github.com/mattlewis92/positioning#readme)
 * popper
+* satellite
 
 ## jison
 
@@ -396,6 +385,7 @@
 * [multikey](https://www.npmjs.com/package/multikey)
 * [composite-key-weakmap](https://www.npmjs.com/package/@allex/composite-key-weakmap)
 * [compositekey](https://www.npmjs.com/package/@bradleymeck/compositekey)
+* [multikey-map](https://www.npmjs.com/package/multikey-map)
 
 ## [funding](https://github.com/feross/funding)
 

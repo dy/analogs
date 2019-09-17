@@ -53,6 +53,7 @@
 ## incremental-dom, html builders, vdom-like
 
 * [incremental-dom]()
+* [mikado](https://github.com/nextapps-de/mikado)
 * [html-chain](https://github.com/maael/html-chain)
 * [scriber](https://jccazeaux.github.io/scriber/)
 * [domchanger](https://github.com/creationix/domchanger)

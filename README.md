@@ -388,6 +388,12 @@
 * [compositekey](https://www.npmjs.com/package/@bradleymeck/compositekey)
 * [multikey-map](https://www.npmjs.com/package/multikey-map)
 
+## [control-panel]()
+
+* dat-gui
+* settings-panel
+* [tweakpane](https://github.com/cocopon/tweakpane)
+
 ## [funding](https://github.com/feross/funding)
 
 * [open-funding](https://github.com/ralphtheninja/open-funding)

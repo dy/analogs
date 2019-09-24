@@ -358,6 +358,7 @@
 * fast-on-load
 * disconnected
 * [element-ready](https://www.npmjs.com/package/element-ready)
+* [when-elements](https://github.com/indiana-university/when-elements)
 
 ## selector-observer
 

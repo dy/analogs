@@ -295,6 +295,7 @@
 * [introspected](https://github.com/WebReflection/introspected)
 * [icaro](https://github.com/GianlucaGuarini/icaro)
 * [fp-ts](https://github.com/gcanti/fp-ts)
+* [object-observer](https://github.com/gullerya/object-observer)
 
 ## is-array
 

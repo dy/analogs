@@ -400,6 +400,10 @@
 * settings-panel
 * [tweakpane](https://github.com/cocopon/tweakpane)
 
+## haunted
+
+* [fuco](https://github.com/wtnbass/fuco)
+
 ## [funding](https://github.com/feross/funding)
 
 * [open-funding](https://github.com/ralphtheninja/open-funding)

@@ -356,6 +356,7 @@
 * [moo](https://github.com/no-context/moo)
 * [gruffalo](https://github.com/no-context/gruffalo)
 * [bennu/parsec](https://github.com/mattbierner/bennu)
+* [maitreya](https://www.npmjs.com/package/maitreya)
 
 ## onload
 

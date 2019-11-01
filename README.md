@@ -19,8 +19,10 @@
 ## augmentor
 
 * dom-augmentor
-* preact hooks
-* react hooks
+* preact-hooks
+* react-hooks
+* rax-hooks
+* [tng-hooks](https://github.com/getify/TNG-Hooks)
 
 ## microbundle
 

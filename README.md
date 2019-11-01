@@ -14,6 +14,7 @@
 * [preact](https://ghub.io/preact)
 * [inferno](https://ghub.io/inferno)
 * [riact](https://www.npmjs.com/package/riact)
+* [reaction](https://npmjs.com/reaction)
 
 ## augmentor
 

@@ -290,6 +290,7 @@
 * [sul](https://github.com/MrOnlineCoder/sul.js)
 * [select-dom](https://github.com/fregante/select-dom)
 * [get-elements-array](https://github.com/fregante/get-elements-array)
+* [sprint](https://github.com/bendc/sprint)
 
 ## frp, observable
 

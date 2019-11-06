@@ -71,6 +71,7 @@
 * [diffhtml](https://ghub.io/diffhtml)
 * [nanomorph](https://ghub.io/nanomorph)
 * [snabbdom](https://ghub.io/snabbdom)
+* [set-dom](https://github.com/DylanPiercey/set-dom)
 
 ## hyperx
 

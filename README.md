@@ -83,6 +83,19 @@
 
 * npmfs
 
+## html-to-react
+
+* [htmr](https://www.npmjs.com/package/htmr)
+* [react-from-dom](https://www.npmjs.com/package/react-from-dom)
+* [html2react](https://www.npmjs.com/package/html2react)
+* ...manymanyothers
+
+## remount
+
+* [customel](https://www.npmjs.com/package/customel)
+* react-mount
+...manymanyothers
+
 ## normalize.css
 
 * [picnic](https://github.com/franciscop/picnic)

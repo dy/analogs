@@ -307,6 +307,9 @@
 * [select-dom](https://github.com/fregante/select-dom)
 * [get-elements-array](https://github.com/fregante/get-elements-array)
 * [sprint](https://github.com/bendc/sprint)
+* [dominus](https://www.npmjs.com/package/dominus)
+* [d3-selection](https://npmjs.org/d3-selection)
+* [jquasi](https://www.npmjs.com/package/jquasi)
 
 ## frp, observable
 

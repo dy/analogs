@@ -72,6 +72,7 @@
 * [nanomorph](https://ghub.io/nanomorph)
 * [snabbdom](https://ghub.io/snabbdom)
 * [set-dom](https://github.com/DylanPiercey/set-dom)
+* remorph
 
 ## hyperx
 
@@ -179,7 +180,6 @@
 * [min-document](https://github.com/Raynos/min-document)
 * [nodom](https://github.com/redom/nodom)
 
-
 ## emitter
 
 * component-emitter
@@ -187,7 +187,6 @@
 * emitter-component
 * emmy
 * enot
-* on-off
 * component-event
 * [on-off](https://github.com/fregante/on-off)
 
@@ -320,6 +319,9 @@
 * [icaro](https://github.com/GianlucaGuarini/icaro)
 * [fp-ts](https://github.com/gcanti/fp-ts)
 * [object-observer](https://github.com/gullerya/object-observer)
+* [zen-observable]
+* [rxjs]
+* ...other observables
 
 ## is-array
 
@@ -419,7 +421,7 @@
 * [compositekey](https://www.npmjs.com/package/@bradleymeck/compositekey)
 * [multikey-map](https://www.npmjs.com/package/multikey-map)
 
-## [control-panel]()
+## control-panel
 
 * dat-gui
 * settings-panel
@@ -428,6 +430,11 @@
 ## haunted
 
 * [fuco](https://github.com/wtnbass/fuco)
+* [atomico](https://ghub.io/atomico)
+
+## node-localstorage
+
+* [dom-storage](https://www.npmjs.com/package/dom-storage)
 
 ## [funding](https://github.com/feross/funding)
 

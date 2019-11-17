@@ -247,10 +247,11 @@
 * simple-random-id
 * nid
 
-## mutype/is-fn
+## cookie-cutter
 
-101/is-function
-* is-function
+* browser-cookies
+* hardtrack
+* es-cookie
 
 ## matches-selector
 

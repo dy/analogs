@@ -434,6 +434,11 @@
 * [fuco](https://github.com/wtnbass/fuco)
 * [atomico](https://ghub.io/atomico)
 
+## static-eval
+
+* ast-eval
+* kudzu
+
 ## node-localstorage
 
 * [dom-storage](https://www.npmjs.com/package/dom-storage)

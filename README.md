@@ -386,6 +386,7 @@
 * [bennu/parsec](https://github.com/mattbierner/bennu)
 * [maitreya](https://www.npmjs.com/package/maitreya)
 * [syntax](https://github.com/DmitrySoshnikov/syntax)
+* [bavary](https://github.com/Simonwep/bavary)
 
 ## onload
 

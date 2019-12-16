@@ -380,6 +380,10 @@
 * popper
 * satellite
 
+## esm
+
+* reify
+
 ## jison
 
 * bison

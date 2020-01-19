@@ -178,6 +178,8 @@
 * [dom-lite](https://ghub.io/dom-lite)
 * [jsdom](https://ghub.io/jsdom)
 * jsdom-nocontextifiy
+* happy-dom
+* [undom](https://ghub.io/undom)
 * simple-dom
 * micro-dom
 * [min-document](https://github.com/Raynos/min-document)

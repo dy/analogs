@@ -26,6 +26,7 @@
 
 ## microbundle
 
+* [bundt](https://www.npmjs.com/package/bundt)
 * [parcel](https://ghub.io/parcel)
 * [pika/pack](https://ghub.io/pika/pack)
 * [babel](https://ghub.io/babel)

@@ -332,6 +332,11 @@
 * [observ](https://github.com/Raynos/observ)
 * [observable-props](https://www.npmjs.com/package/observable-props)
 * [mutant](https://www.npmjs.com/package/mutant)
+* can
+* most
+* any-observable
+* [xstream](https://github.com/staltz/xstream)
+* es-observable
 * ...other observables
 
 ## is-array

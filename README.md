@@ -328,6 +328,10 @@
 * [object-observer](https://github.com/gullerya/object-observer)
 * [zen-observable]
 * [rxjs]
+* [observable](https://github.com/dominictarr/observable)
+* [observ](https://github.com/Raynos/observ)
+* [observable-props](https://www.npmjs.com/package/observable-props)
+* [mutant](https://www.npmjs.com/package/mutant)
 * ...other observables
 
 ## is-array

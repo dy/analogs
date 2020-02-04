@@ -448,6 +448,7 @@
 
 * ast-eval
 * kudzu
+* [prepack](https://prepack.io/)
 
 ## node-localstorage
 

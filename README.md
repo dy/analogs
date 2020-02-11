@@ -34,6 +34,7 @@
 * [webrunify](https://ghub.io/webrunify)
 * [fastpack](https://ghub.io/https://github.com/fastpack/fastpack)
 * [pax](https://ghub.io/pax)
+* [esbundle](https://github.com/evanw/esbuild)
 * [fuse box](https://ghub.io/fuse-box)
 * [nexe](https://ghub.io/nexe)
 * [sucrace](https://github.com/alangpierce/sucrase)

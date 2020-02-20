@@ -75,6 +75,7 @@
 * [snabbdom](https://ghub.io/snabbdom)
 * [set-dom](https://github.com/DylanPiercey/set-dom)
 * remorph
+* [jsx-dom](https://ghub.io/jsx-dom)
 
 ## hyperx
 

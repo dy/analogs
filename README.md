@@ -407,6 +407,7 @@
 * [maitreya](https://www.npmjs.com/package/maitreya)
 * [syntax](https://github.com/DmitrySoshnikov/syntax)
 * [bavary](https://github.com/Simonwep/bavary)
+* [lezer](https://github.com/lezer-parser/lezer-generator)
 
 ## onload
 

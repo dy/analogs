@@ -50,10 +50,13 @@
 ## hyperscript
 
 * [hyperscript](https://github.com/hyperhype/hyperscript)
-* [vhtml](https://github.com/developit/vhtml)
+* [jsx-dom](https://github.com/proteriax/jsx-dom)
 * [hyperscript-strict](https://github.com/dmitriz/hyperscript-strict)
-* [snabbdom](https://github.com/snabbdom/snabbdom)
 * [hyps](https://github.com/ahdinosaur/hyps)
+* [html-tag](https://www.npmjs.com/package/html-tag)
+
+## virtual-dom
+* [vhtml](https://github.com/developit/vhtml)
 * [val](https://github.com/skatejs/val)
 * [mutant](https://github.com/mmckegg/mutant#htmlelement--h)
 * [virtual-dom](https://www.npmjs.com/package/virtual-dom)
@@ -63,7 +66,6 @@
 * [elementx](https://github.com/queckezz/elementx)
 * [mich-h](https://github.com/tunnckoCore/mich-h)
 * [hastscript](https://github.com/syntax-tree/hastscript)
-* [html-tag](https://www.npmjs.com/package/html-tag)
 
 ## incremental-dom, html builders, vdom-like
 

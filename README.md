@@ -433,6 +433,7 @@
 * disconnected
 * [element-ready](https://www.npmjs.com/package/element-ready)
 * [when-elements](https://github.com/indiana-university/when-elements)
+* [disco](https://github.com/luwes/disco)
 
 ## selector-observer
 

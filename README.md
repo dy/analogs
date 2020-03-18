@@ -4,8 +4,8 @@
 
 * [abort controller](https://developer.mozilla.org/en-US/docs/Web/API/AbortController)
 * [`push(null)`](https://nodejs.org/api/stream.html#stream_readable_unshift_chunk_encoding)
-* [cancelable](https://www.npmjs.com/package/p-cancelable)
-* []()
+* [p-cancelable](https://www.npmjs.com/package/p-cancelable)
+* [@esfx/cancelable](https://github.com/esfx/esfx)
 
 ## worker-timers
 * audio-context-timers

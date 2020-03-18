@@ -195,6 +195,7 @@
 
 ## [html-document](https://ghub.io/html-document)
 
+* [basichtml](https://ghub.io/basichtml)
 * [dom-lite](https://ghub.io/dom-lite)
 * [jsdom](https://ghub.io/jsdom)
 * jsdom-nocontextifiy

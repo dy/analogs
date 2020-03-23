@@ -1,5 +1,9 @@
 # analogs
 
+## [proposal-refs](https://github.com/rbuckton/proposal-refs#examples)
+
+* [@esfx/ref](https://github.com/esfx/esfx)
+
 ## cancelling
 
 * [abort controller](https://developer.mozilla.org/en-US/docs/Web/API/AbortController)

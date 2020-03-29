@@ -359,9 +359,15 @@
 * can
 * most
 * any-observable
-* [xstream](https://github.com/staltz/xstream)
 * es-observable
 * ...other observables
+
+## stream
+
+* xstream
+* pull-stream
+* push-stream
+* [pipe-me](https://github.com/sartaj/pipe-me)
 
 ## is-array
 

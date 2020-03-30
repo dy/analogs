@@ -365,6 +365,7 @@
 ## stream
 
 * xstream
+* [streamx](https://github.com/mafintosh/streamx)
 * pull-stream
 * push-stream
 * [pipe-me](https://github.com/sartaj/pipe-me)

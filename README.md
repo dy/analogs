@@ -343,6 +343,7 @@
 
 ## frp, observable
 
+* [micro-observer](https://github.com/tannerntannern/micro-observer)
 * [defi](https://github.com/defijs/defi)
 * [on-change](https://github.com/sindresorhus/on-change)
 * [atama](https://github.com/franciscop/atama)

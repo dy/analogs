@@ -49,6 +49,7 @@
 * [fuse box](https://ghub.io/fuse-box)
 * [nexe](https://ghub.io/nexe)
 * [sucrace](https://github.com/alangpierce/sucrase)
+* [klap](https://github.com/osdevisnot/klap)
 
 
 ## hyperscript

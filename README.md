@@ -509,6 +509,11 @@
 * http-server
 * [polka](https://github.com/lukeed/polka)
 * [zwitterion](https://github.com/lastmjs/zwitterion)
+* servor
+* es-dev-server
+* live-server
+* lite-server
+* browser-sync
 
 <!--
 * There are lots of similar packages in npm which basically do the same thing but are called differently, from large ones like **underscore / lodash / amp** to atomic like **is / is-function / is-type**. Thousands of them.

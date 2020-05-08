@@ -425,10 +425,13 @@
 * popper
 * satellite
 * [nanopop](https://github.com/Simonwep/nanopop)
+* [adjust](https://www.npmjs.com/package/adjust)
+* tether
 
 ## esm
 
 * reify
+* autoesm
 
 ## jison
 

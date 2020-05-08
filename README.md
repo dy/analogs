@@ -424,6 +424,7 @@
 * [positionining](https://github.com/mattlewis92/positioning#readme)
 * popper
 * satellite
+* [nanopop](https://github.com/Simonwep/nanopop)
 
 ## esm
 

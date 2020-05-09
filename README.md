@@ -1,5 +1,11 @@
 # analogs
 
+## gl-waveform
+
+* uPlot
+* https://github.com/danchitnis/webgl-plot
+* https://github.com/huww98/TimeChart
+
 ## [proposal-refs](https://github.com/rbuckton/proposal-refs#examples)
 
 * [@esfx/ref](https://github.com/esfx/esfx)

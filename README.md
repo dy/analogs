@@ -462,6 +462,11 @@
 
 * [regular-elements](https://github.com/WebReflection/regular-elements)
 * [watched](https://www.npmjs.com/package/watched)
+* [spect/$](spect.ly)
+* `insertionQuery`
+* `mutation-summary` 
+* `qso`
+* [SelectorListener](https://github.com/csuwildcat/SelectorListener)
 
 ## tape
 

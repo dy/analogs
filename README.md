@@ -1,5 +1,9 @@
 # analogs
 
+## jsinspect
+* jscpd
+* pmd
+
 ## gl-waveform
 
 * uPlot

@@ -352,8 +352,25 @@
 * [d3-selection](https://npmjs.org/d3-selection)
 * [jquasi](https://www.npmjs.com/package/jquasi)
 
-## frp, observable
+## Observable tc39
 
+* [zen-observable](https://www.npmjs.com/package/zen-observable) 
+* [rxjs](https://www.npmjs.com/package/rxjs)
+* [most](https://www.npmjs.com/package/most)
+* [xstream](https://www.npmjs.com/package/xstream)
+* [bacon](https://www.npmjs.com/package/baconjs)
+* [kefir](https://www.npmjs.com/package/kefir)
+* [flyd](https://www.npmjs.com/package/flyd)
+* [core-js](https://github.com/zloirock/core-js#observable)
+* [fate-observable](https://github.com/shanewholloway/node-fate-observable)
+* [indefinite-observable](https://www.npmjs.com/package/indefinite-observable)
+* [es-observable](https://www.npmjs.com/package/es-observable)
+* [light-observable](https://www.npmjs.com/package/light-observable)
+* can?
+* any-observable
+* ...other observables
+
+## stateful observers, object observers
 * [micro-observer](https://github.com/tannerntannern/micro-observer)
 * [defi](https://github.com/defijs/defi)
 * [on-change](https://github.com/sindresorhus/on-change)
@@ -362,17 +379,10 @@
 * [icaro](https://github.com/GianlucaGuarini/icaro)
 * [fp-ts](https://github.com/gcanti/fp-ts)
 * [object-observer](https://github.com/gullerya/object-observer)
-* [zen-observable]
-* [rxjs]
 * [observable](https://github.com/dominictarr/observable)
 * [observ](https://github.com/Raynos/observ)
 * [observable-props](https://www.npmjs.com/package/observable-props)
 * [mutant](https://www.npmjs.com/package/mutant)
-* can
-* most
-* any-observable
-* es-observable
-* ...other observables
 
 ## stream
 

@@ -383,6 +383,7 @@
 * [observ](https://github.com/Raynos/observ)
 * [observable-props](https://www.npmjs.com/package/observable-props)
 * [mutant](https://www.npmjs.com/package/mutant)
+* [ironjs](https://github.com/ironjs)
 
 ## stream
 

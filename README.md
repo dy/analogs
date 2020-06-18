@@ -4,6 +4,7 @@
 * browser-run
 * [prova](https://github.com/azer/prova)
 * [smokestack](https://github.com/hughsk/smokestack)
+* [cappadonna](https://github.com/mikeal/cappadonna)
 
 ## jsinspect
 * jscpd

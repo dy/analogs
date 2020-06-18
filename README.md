@@ -3,6 +3,7 @@
 ## testling
 * browser-run
 * [prova](https://github.com/azer/prova)
+* [smokestack](https://github.com/hughsk/smokestack)
 
 ## jsinspect
 * jscpd

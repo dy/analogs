@@ -1,11 +1,5 @@
 # analogs
 
-## testling
-* browser-run
-* [prova](https://github.com/azer/prova)
-* [smokestack](https://github.com/hughsk/smokestack)
-* [cappadonna](https://github.com/mikeal/cappadonna)
-
 ## jsinspect
 * jscpd
 * pmd
@@ -501,6 +495,11 @@
 
 * [browser-run](https://www.npmjs.com/package/browser-run)
 * [browser-env](https://ghub.io/browser-env) with `node -r esm -r ./test/register.js test/index.js`
+* testling
+* [prova](https://github.com/azer/prova)
+* [smokestack](https://github.com/hughsk/smokestack)
+* [cappadonna](https://github.com/mikeal/cappadonna)
+* [node-as-browser](https://github.com/seebigs/node-as-browser)
 
 ## tuple
 

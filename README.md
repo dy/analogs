@@ -165,6 +165,11 @@
 * colorama
 * alchemist-js
 
+## color-picker
+
+* [vanilla-colorful](https://github.com/web-padawan/vanilla-colorful)
+* [react-colorful](https://github.com/omgovich/react-colorful)
+
 ## esrecurse
 
 * ast-types

@@ -464,6 +464,7 @@
 * [syntax](https://github.com/DmitrySoshnikov/syntax)
 * [bavary](https://github.com/Simonwep/bavary)
 * [lezer](https://github.com/lezer-parser/lezer-generator)
+* [Pasukon](https://github.com/gosukiwi/Pasukon)
 
 ## onload
 

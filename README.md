@@ -250,6 +250,7 @@
 * acorn
 * [tenko](https://github.com/pvdz/tenko)
 * [babel-parser](https://github.com/babel/babel/tree/master/packages/babel-parser)
+* [escaya](https://github.com/escaya/escaya)
 
 ## escope
 

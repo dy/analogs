@@ -1,5 +1,12 @@
 # analogs
 
+## yeoman
+
+* [plop](https://github.com/plopjs/plop)
+* [slush](https://www.npmjs.com/package/slush)
+* hygen
+* [template-file](https://www.npmjs.com/package/template-file)
+
 ## jsinspect
 * jscpd
 * pmd

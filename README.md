@@ -457,7 +457,7 @@
 
 * [positionining](https://github.com/mattlewis92/positioning#readme)
 * popper
-* satellite
+* [satellite](https://github.com/jkroso/satellite)
 * [nanopop](https://github.com/Simonwep/nanopop)
 * [adjust](https://www.npmjs.com/package/adjust)
 * tether

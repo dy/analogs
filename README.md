@@ -478,6 +478,7 @@
 * [bavary](https://github.com/Simonwep/bavary)
 * [lezer](https://github.com/lezer-parser/lezer-generator)
 * [Pasukon](https://github.com/gosukiwi/Pasukon)
+* [ohm](https://github.com/harc/ohm)
 
 ## onload
 

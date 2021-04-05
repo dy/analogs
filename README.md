@@ -532,6 +532,7 @@
 * dat-gui
 * settings-panel
 * [tweakpane](https://github.com/cocopon/tweakpane)
+* [leva](https://github.com/pmndrs/leva)
 
 ## haunted
 

@@ -533,6 +533,7 @@
 * settings-panel
 * [tweakpane](https://github.com/cocopon/tweakpane)
 * [leva](https://github.com/pmndrs/leva)
+* [uil](https://github.com/lo-th/uil)
 
 ## haunted
 

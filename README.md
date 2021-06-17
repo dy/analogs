@@ -1,5 +1,17 @@
 # analogs
 
+## Video player (+youtube)
+
+* yt-player
+* youtube-player
+* [plyr](https://github.com/sampotts/plyr)
+* [clappr](https://github.com/clappr/clappr)
+* [mediaelementjs](http://www.mediaelementjs.com/)
+* [dplayer](https://dplayer.js.org/)
+* [jplayer](https://www.npmjs.com/package/jplayer)
+* [playable](https://www.npmjs.com/package/playable)
+* [videojs-youtube](https://github.com/videojs/videojs-youtube)
+
 ## yeoman
 
 * [plop](https://github.com/plopjs/plop)

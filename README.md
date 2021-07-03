@@ -90,6 +90,7 @@
 * [html-tag](https://www.npmjs.com/package/html-tag)
 
 ## virtual-dom
+* [million](https://github.com/aidenybai/million)
 * [vhtml](https://github.com/developit/vhtml)
 * [val](https://github.com/skatejs/val)
 * [mutant](https://github.com/mmckegg/mutant#htmlelement--h)

@@ -184,6 +184,8 @@
 * chameleon-js
 * colorama
 * alchemist-js
+* [color.js](https://github.com/LeaVerou/color.js)
+* [colord](https://github.com/omgovich/colord)
 
 ## color-picker
 

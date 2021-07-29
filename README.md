@@ -543,13 +543,14 @@
 * [compositekey](https://www.npmjs.com/package/@bradleymeck/compositekey)
 * [multikey-map](https://www.npmjs.com/package/multikey-map)
 
-## control-panel
+## [control-panel](https://github.com/freeman-lab/control-panel#readme)
 
-* dat-gui
+* [dat-gui](https://github.com/dataarts/dat.gui)
 * settings-panel
 * [tweakpane](https://github.com/cocopon/tweakpane)
 * [leva](https://github.com/pmndrs/leva)
 * [uil](https://github.com/lo-th/uil)
+* [control-kit](https://github.com/automat/controlkit.js/)
 
 ## haunted
 

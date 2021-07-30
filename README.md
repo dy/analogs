@@ -331,6 +331,11 @@
 * desandro-matches-selector
 * queried@matches
 
+## buffer-list
+
+* audio-buffer-list
+* [multi-buffer-data-view](https://github.com/chrisguttandin/multi-buffer-data-view)
+
 ## xtend
 
 * component-object

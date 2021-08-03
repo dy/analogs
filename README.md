@@ -19,6 +19,11 @@
 * hygen
 * [template-file](https://www.npmjs.com/package/template-file)
 
+## [git-issue](https://github.com/dspinellis/git-issue)
+
+* [git-bug](https://github.com/MichaelMure/git-bug)
+* [full list](https://dist-bugs.branchable.com/software/)
+
 ## jsinspect
 * jscpd
 * pmd

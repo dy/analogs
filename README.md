@@ -60,6 +60,7 @@
 * [inferno](https://ghub.io/inferno)
 * [riact](https://www.npmjs.com/package/riact)
 * [reaction](https://npmjs.com/reaction)
+* [hacky](https://github.com/aidenybai/hacky)
 
 ## augmentor
 

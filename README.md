@@ -61,6 +61,7 @@
 * [riact](https://www.npmjs.com/package/riact)
 * [reaction](https://npmjs.com/reaction)
 * [hacky](https://github.com/aidenybai/hacky)
+* [fre](https://github.com/yisar/fre)
 
 ## augmentor
 

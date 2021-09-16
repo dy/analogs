@@ -533,6 +533,8 @@
 * [ava](https://ghub.io/ava)
 * [tapes](https://www.npmjs.com/package/tapes)
 * [tape-es](https://github.com/vanillaes/tape-es)
+* [brittle](https://github.com/davidmarkclements/brittle)
+* [uvu](https://github.com/lukeed/uvu)
 
 ## [tape-run](https://ghub.io/tape-run)
 

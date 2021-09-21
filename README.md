@@ -24,6 +24,11 @@
 * [git-bug](https://github.com/MichaelMure/git-bug)
 * [full list](https://dist-bugs.branchable.com/software/)
 
+## greenshock
+
+* motion one
+* anime.js
+
 ## jsinspect
 * jscpd
 * pmd

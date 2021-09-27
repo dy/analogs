@@ -413,6 +413,7 @@
 * [light-observable](https://www.npmjs.com/package/light-observable)
 * can?
 * any-observable
+* [newsletter](https://github.com/alexeyraspopov/newsletter)
 * ...other observables
 
 ## stateful observers, object observers

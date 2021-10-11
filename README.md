@@ -4,6 +4,8 @@
 
 * [github/jtml](https://github.com/github/jtml)
 * [github/template-parts](https://github.com/github/template-parts)
+* [template-instantiation-prollyfill](https://www.npmjs.com/package/template-instantiation-prollyfill)
+* [template-instantiation-polyfill](https://www.npmjs.com/package/template-instantiation-polyfill)
 
 ## Video player (+youtube)
 

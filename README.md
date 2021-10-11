@@ -1,5 +1,10 @@
 # analogs
 
+## template parts
+
+* [github/jtml](https://github.com/github/jtml)
+* [github/template-parts](https://github.com/github/template-parts)
+
 ## Video player (+youtube)
 
 * yt-player

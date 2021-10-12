@@ -2,6 +2,15 @@
 
 ## expression evaluator
 
+* https://github.com/devrafalko/string-math
+* https://github.com/naivesound/expr-js
+* https://github.com/masyl/funex
+* https://github.com/chidiwilliams/expression-evaluator
+* https://github.com/bugwheels94/math-expression-evaluator
+* https://github.com/akira-cn/js-expression
+* https://bundlephobia.com/package/bcx-expression-evaluator@1.2.1
+* https://github.com/arthanzel/evaluatex
+* https://github.com/TomFrost/Jexl
 * https://github.com/silentmatt/expr-eval
 * https://github.com/philipszdavido/expr_parser_js
 * https://github.com/kdinev/EpsilonJS

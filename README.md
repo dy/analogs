@@ -1,7 +1,19 @@
 # analogs
 
+## expression evaluator
+
+* https://github.com/silentmatt/expr-eval
+* https://github.com/philipszdavido/expr_parser_js
+* https://github.com/kdinev/EpsilonJS
+* https://github.com/peakchen90/decimal-eval
+* https://github.com/foo123/Xpresion
+* https://github.com/abdullah2993/expression-parser
+* https://github.com/ppaska/arithmetic-calculator
+* https://github.com/EricSmekens/jsep
+
 ## template parts
 
+* [spect/template-parts](https://github.com/spect/template-parts)
 * [github/jtml](https://github.com/github/jtml)
 * [github/template-parts](https://github.com/github/template-parts)
 * [template-instantiation-prollyfill](https://www.npmjs.com/package/template-instantiation-prollyfill)

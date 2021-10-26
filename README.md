@@ -569,6 +569,8 @@
 * [tape-es](https://github.com/vanillaes/tape-es)
 * [brittle](https://github.com/davidmarkclements/brittle)
 * [uvu](https://github.com/lukeed/uvu)
+* jest
+* [pitesti](https://github.com/bengl/pitesti)
 
 ## [tape-run](https://ghub.io/tape-run)
 

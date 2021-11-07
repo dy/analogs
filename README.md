@@ -206,6 +206,10 @@
 * chai
 * power-assert
 
+## diffing
+
+* [microdiff](https://github.com/gajus/liqe)
+
 ## color
 
 * tinycolor2
@@ -380,11 +384,6 @@
 
 * component-object
 * object-assign
-
-## assert
-
-* better-assert
-* component-object
 
 ## query-component
 

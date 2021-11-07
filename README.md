@@ -141,6 +141,7 @@
 * [elementx](https://github.com/queckezz/elementx)
 * [mich-h](https://github.com/tunnckoCore/mich-h)
 * [hastscript](https://github.com/syntax-tree/hastscript)
+* [vdomini](https://github.com/stagas/vdomini)
 
 ## incremental-dom, html builders, vdom-like
 
@@ -423,6 +424,12 @@
 * [dominus](https://www.npmjs.com/package/dominus)
 * [d3-selection](https://npmjs.org/d3-selection)
 * [jquasi](https://www.npmjs.com/package/jquasi)
+
+## regl-line
+
+* [regl-gpu-lines](https://github.com/rreusser/regl-gpu-lines)
+* [regl-line2d](https://github.com/gl-vis/regl-line2d)
+* [regl-insta-lines](https://github.com/deluksic/regl-insta-lines)
 
 ## Observable tc39
 

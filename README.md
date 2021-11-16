@@ -430,6 +430,9 @@
 * [regl-gpu-lines](https://github.com/rreusser/regl-gpu-lines)
 * [regl-line2d](https://github.com/gl-vis/regl-line2d)
 * [regl-insta-lines](https://github.com/deluksic/regl-insta-lines)
+* [drawing-lines](https://mattdesl.svbtle.com/drawing-lines-is-hard)
+* [instanced-lines](https://wwwtyro.net/2021/10/01/instanced-lines-part-2.html)
+* [screen-projected-lines](https://github.com/substack/screen-projected-lines)
 
 ## Observable tc39
 

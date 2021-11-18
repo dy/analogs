@@ -96,6 +96,10 @@
 * [hacky](https://github.com/aidenybai/hacky)
 * [fre](https://github.com/yisar/fre)
 
+## generator components
+
+* [yeet](https://github.com/tornqvist/yeet)
+
 ## augmentor
 
 * dom-augmentor
@@ -142,6 +146,8 @@
 * [mich-h](https://github.com/tunnckoCore/mich-h)
 * [hastscript](https://github.com/syntax-tree/hastscript)
 * [vdomini](https://github.com/stagas/vdomini)
+* [petit-dom](https://github.com/yelouafi/petit-dom)
+* [render-jsx](https://github.com/loreanvictor/render-jsx)
 
 ## incremental-dom, html builders, vdom-like
 
@@ -231,6 +237,7 @@
 * alchemist-js
 * [color.js](https://github.com/LeaVerou/color.js)
 * [colord](https://github.com/omgovich/colord)
+* [culori](https://github.com/Evercoder/culori)
 
 ## color-picker
 

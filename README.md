@@ -1,5 +1,10 @@
 # analogs
 
+## [stretchy](https://github.com/LeaVerou/stretchy)
+
+* [textarea-autosize](https://github.com/github/textarea-autosize)
+* [autosize](https://github.com/jackmoore/autosize)
+
 ## expression evaluator
 
 * https://github.com/devrafalko/string-math

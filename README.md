@@ -661,6 +661,10 @@
 
 * @import-maps/resolve
 
+## include-fragment
+
+* [html-include-element](https://github.com/justinfagnani/html-include-element)
+
 ## skillbox
 
 * geekbrains

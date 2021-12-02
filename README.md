@@ -661,9 +661,12 @@
 
 * @import-maps/resolve
 
-## include-fragment
+## include-fragment-element
 
 * [html-include-element](https://github.com/justinfagnani/html-include-element)
+* imported-template, html-import, juicy-html, html-import
+* html-imports
+* xm
 
 ## skillbox
 

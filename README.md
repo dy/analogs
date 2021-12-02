@@ -128,6 +128,7 @@
 * [nexe](https://ghub.io/nexe)
 * [sucrace](https://github.com/alangpierce/sucrase)
 * [klap](https://github.com/osdevisnot/klap)
+* https://dev.to/shadowtime2000/list-of-js-bundlers-14ee
 
 
 ## hyperscript

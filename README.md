@@ -543,6 +543,7 @@
 * [nanopop](https://github.com/Simonwep/nanopop)
 * [adjust](https://www.npmjs.com/package/adjust)
 * tether
+* [floating-ui](https://github.com/atomiks/floating-ui)
 
 ## esm
 

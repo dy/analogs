@@ -1,5 +1,9 @@
 # analogs
 
+## templated
+
+* consolidate
+
 ## [stretchy](https://github.com/LeaVerou/stretchy)
 
 * [textarea-autosize](https://github.com/github/textarea-autosize)

@@ -11,6 +11,8 @@
 
 ## expression evaluator
 
+* subscript
+* jexpr
 * https://github.com/devrafalko/string-math
 * https://github.com/naivesound/expr-js
 * https://github.com/masyl/funex
@@ -210,6 +212,7 @@
 
 * [customel](https://www.npmjs.com/package/customel)
 * react-mount
+* https://github.com/jhukdev/preactement
 ...manymanyothers
 
 ## normalize.css

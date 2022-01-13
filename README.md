@@ -160,6 +160,7 @@
 * [vdomini](https://github.com/stagas/vdomini)
 * [petit-dom](https://github.com/yelouafi/petit-dom)
 * [render-jsx](https://github.com/loreanvictor/render-jsx)
+* [vele](https://github.com/stagas/vele)
 
 ## incremental-dom, html builders, vdom-like
 

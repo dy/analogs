@@ -93,6 +93,14 @@
 * audio-context-timers
 * stable-timers
 
+## worker-dom
+
+* https://github.com/ampproject/worker-dom
+* https://github.com/AshleyScirra/via.js
+* https://github.com/neomjs/neo
+* https://github.com/BuilderIO/partytown
+* https://github.com/GoogleChromeLabs/clooney
+
 ## [theme-ui](https://system-ui.com/theme/)
 * universal-design-token
 * theo

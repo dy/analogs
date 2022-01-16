@@ -169,6 +169,7 @@
 * [petit-dom](https://github.com/yelouafi/petit-dom)
 * [render-jsx](https://github.com/loreanvictor/render-jsx)
 * [vele](https://github.com/stagas/vele)
+* [dot-dom](https://github.com/wavesoft/dot-dom)
 
 ## incremental-dom, html builders, vdom-like
 

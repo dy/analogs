@@ -170,6 +170,7 @@
 * [render-jsx](https://github.com/loreanvictor/render-jsx)
 * [vele](https://github.com/stagas/vele)
 * [dot-dom](https://github.com/wavesoft/dot-dom)
+* [little-vdom](https://github.com/luwes/little-vdom)
 
 ## incremental-dom, html builders, vdom-like
 

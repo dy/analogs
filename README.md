@@ -1,5 +1,11 @@
 # analogs
 
+## typescript
+
+* [rtype](https://github.com/ericelliott/rtype)
+* [rfx](https://github.com/ericelliott/rfx)
+* [hegel](https://github.com/JSMonk/hegel)
+
 ## templated
 
 * consolidate

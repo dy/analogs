@@ -159,6 +159,8 @@
 * [hyperscript-strict](https://github.com/dmitriz/hyperscript-strict)
 * [hyps](https://github.com/ahdinosaur/hyps)
 * [html-tag](https://www.npmjs.com/package/html-tag)
+* [hyperf](https://github.com/spectjs/hyperf)
+* [create-element-x](https://github.com/qwtel/create-element-x)
 
 ## virtual-dom
 * [million](https://github.com/aidenybai/million)

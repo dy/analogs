@@ -1,5 +1,9 @@
 # analogs
 
+## [wabt](https://github.com/WebAssembly/wabt)
+
+* [wat-compiler](https://github.com/stagas/wat-compiler)
+
 ## typescript
 
 * [rtype](https://github.com/ericelliott/rtype)

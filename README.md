@@ -165,6 +165,7 @@
 * [html-tag](https://www.npmjs.com/package/html-tag)
 * [hyperf](https://github.com/spectjs/hyperf)
 * [create-element-x](https://github.com/qwtel/create-element-x)
+* [html-dom](https://github.com/stagas/html-vdom)
 
 ## virtual-dom
 * [million](https://github.com/aidenybai/million)

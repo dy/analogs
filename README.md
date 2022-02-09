@@ -570,12 +570,13 @@
 
 ## placer
 
+* [adjust](https://www.npmjs.com/package/adjust)
+* [tether](https://github.com/HubSpot/tether)
+* [positions](https://github.com/QubitProducts/positions)
 * [positionining](https://github.com/mattlewis92/positioning#readme)
-* popper
+* [popper](https://ghub.io/popper)
 * [satellite](https://github.com/jkroso/satellite)
 * [nanopop](https://github.com/Simonwep/nanopop)
-* [adjust](https://www.npmjs.com/package/adjust)
-* tether
 * [floating-ui](https://github.com/atomiks/floating-ui)
 
 ## esm

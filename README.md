@@ -1,7 +1,14 @@
 # analogs
 
+## [carbon.sh](https://carbon.now.sh/)
+
+* [chalk.ist](https://chalk.ist/)
+* [ray.so](https://ray.so/)
+* [snappify](https://snappify.io/editor)
+
 ## [wabt](https://github.com/WebAssembly/wabt)
 
+* [watr](https://github.com/audio-lab/watr)
 * [wat-compiler](https://github.com/stagas/wat-compiler)
 
 ## typescript

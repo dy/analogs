@@ -28,6 +28,10 @@
 
 * consolidate
 
+## fourier-transform
+
+* [wasm-fourier](https://github.com/linanova/wasm-fourier)
+
 ## [stretchy](https://github.com/LeaVerou/stretchy)
 
 * [textarea-autosize](https://github.com/github/textarea-autosize)

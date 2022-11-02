@@ -1,5 +1,10 @@
 # analogs
 
+## react-toastify
+
+* noty
+* js-notifier
+
 ## alpinejs
 
 * https://lucia.js.org/docs/fundementals/special-cases

@@ -644,6 +644,8 @@
 
 ## tape
 
+* [node:test](https://nodejs.org/api/test.html)
+* [node-core-test](https://github.com/nodejs/node-core-test)
 * [tst](https://ghub.io/tst)
 * [tap](https://ghub.io/tap)
 * [zora](https://github.com/lorenzofox3/zora/issues/16#issuecomment-383876913)

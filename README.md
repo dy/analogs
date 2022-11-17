@@ -5,6 +5,12 @@
 * noty
 * js-notifier
 
+## preact/signals
+
+* [usignal](https://www.npmjs.com/package/usignal)
+* cellx
+* value-ref
+
 ## alpinejs
 
 * https://lucia.js.org/docs/fundementals/special-cases

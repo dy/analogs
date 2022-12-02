@@ -1,5 +1,11 @@
 # analogs
 
+## midjourney
+
+* lexica.art
+* https://creator.nightcafe.studio/
+* dall-e
+
 ## react-toastify
 
 * noty

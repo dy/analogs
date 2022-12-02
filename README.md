@@ -5,6 +5,7 @@
 * lexica.art
 * https://creator.nightcafe.studio/
 * dall-e
+* diffusion bee
 
 ## react-toastify
 

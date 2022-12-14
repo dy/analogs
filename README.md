@@ -2,10 +2,11 @@
 
 ## midjourney
 
-* lexica.art
+* [lexica.art](https://lexica.art)
 * https://creator.nightcafe.studio/
 * dall-e
 * diffusion bee
+* [dreamlike.art](https://dreamlike.art/create)
 
 ## react-toastify
 

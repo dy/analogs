@@ -8,6 +8,11 @@
 * diffusion bee
 * [dreamlike.art](https://dreamlike.art/create)
 
+## cypress
+
+* playwright
+* nightwatch
+
 ## react-toastify
 
 * noty

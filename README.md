@@ -1,5 +1,10 @@
 # analogs
 
+## terminalizer
+
+ * https://terminalizer.com/
+ * https://asciinema.org/explore/featured
+
 ## midjourney
 
 * [lexica.art](https://lexica.art)

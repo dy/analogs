@@ -5,7 +5,7 @@
 * [tilt](https://github.com/munshkr/tilt)
 * [soul](https://github.com/soul-lang/SOUL)
 * [mono](https://github.com/stagas/mono)
-* [juce](https://juicelang.org/)
+* [juce]([https://juicelang.org/](https://docs.juce.com/master/tutorial_audio_thumbnail.html))
 
 ## min languages
 

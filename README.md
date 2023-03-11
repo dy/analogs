@@ -18,9 +18,7 @@
 * [v](https://github.com/vlang/v)
 * [nim](https://github.com/nim-lang/Nim)
 * [zig](https://ziglang.org/documentation/master/#WebAssembly)
-* [never](https://github.com/never-lang/never)
 * [cyber](https://github.com/fubark/cyber)
-* [wase](https://github.com/area9innovation/wase)
 * [cito](https://github.com/pfusik/cito)
 
 ## terminalizer

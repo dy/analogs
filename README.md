@@ -10,12 +10,13 @@
 ## modern languages
 
 * [min](https://github.com/r-lyeh/min)
+* [grain](https://github.com/grain-lang/grain)
+* [wren](https://github.com/wren-lang/wren)
 * [co](https://github.com/rsms/co)
 * [compis](https://github.com/rsms/compis)
 * [v](https://github.com/vlang/v)
 * [nim](https://github.com/nim-lang/Nim)
 * [zig](https://ziglang.org/documentation/master/#WebAssembly)
-* [grain](https://github.com/grain-lang/grain)
 * [never](https://github.com/never-lang/never)
 * [cyber](https://github.com/fubark/cyber)
 * [crystal](https://github.com/crystal-lang/crystal)

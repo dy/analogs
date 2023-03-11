@@ -10,6 +10,7 @@
 ## modern languages
 
 * [min](https://github.com/r-lyeh/min)
+* [chasm](https://github.com/ColinEberhardt/chasm)
 * [grain](https://github.com/grain-lang/grain)
 * [wren](https://github.com/wren-lang/wren)
 * [co](https://github.com/rsms/co)
@@ -28,7 +29,6 @@
 * [wase](https://github.com/area9innovation/wase)
 * [xcc](https://github.com/tyfkda/xcc)
 * [cito](https://github.com/pfusik/cito)
-* [chasm](https://github.com/ColinEberhardt/chasm)
 
 ## terminalizer
 

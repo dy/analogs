@@ -1,5 +1,34 @@
 # analogs
 
+## audio languages
+
+* [tilt](https://github.com/munshkr/tilt)
+* [soul](https://github.com/soul-lang/SOUL)
+* [mono](https://github.com/stagas/mono)
+* [juce](https://juicelang.org/)
+
+## modern languages
+
+* [min](https://github.com/r-lyeh/min)
+* [co](https://github.com/rsms/co)
+* [compis](https://github.com/rsms/compis)
+* [v](https://github.com/vlang/v)
+* [nim](https://github.com/nim-lang/Nim)
+* [zig](https://ziglang.org/documentation/master/#WebAssembly)
+* [grain](https://github.com/grain-lang/grain)
+* [never](https://github.com/never-lang/never)
+* [cyber](https://github.com/fubark/cyber)
+* [crystal](https://github.com/crystal-lang/crystal)
+* [d](https://github.com/ldc-developers/ldc)
+* [eel](https://github.com/captbaritone/eel-wasm)
+* [kcl](https://github.com/KusionStack/KCLVM)
+* [lys](https://github.com/lys-lang/lys)
+* [scopes](https://hg.sr.ht/~duangle/scopes)
+* [wase](https://github.com/area9innovation/wase)
+* [xcc](https://github.com/tyfkda/xcc)
+* [cito](https://github.com/pfusik/cito)
+* [chasm](https://github.com/ColinEberhardt/chasm)
+
 ## terminalizer
 
  * https://terminalizer.com/

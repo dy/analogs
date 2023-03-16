@@ -291,6 +291,12 @@
 * npmfs
 * unpkg/
 
+## https://cdn.jsdelivr.net/npm/sprae/sprae.min.js
+
+* https://unpkg.com/sprae@3.1.0/sprae.min.js
+* https://esm.sh/sprae@3.1.0/sprae.min.js
+* https://cdn.skypack.dev/sprae
+
 ## page.js
 
 * [director](https://www.npmjs.com/package/director)

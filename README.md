@@ -7,7 +7,7 @@
 * [mono](https://github.com/stagas/mono)
 * [juce]([https://juicelang.org/](https://docs.juce.com/master/tutorial_audio_thumbnail.html))
 
-## min languages
+## wasm languages
 
 * [min](https://github.com/r-lyeh/min)
 * [chasm](https://github.com/ColinEberhardt/chasm)
@@ -20,8 +20,9 @@
 * [zig](https://ziglang.org/documentation/master/#WebAssembly)
 * [cyber](https://github.com/fubark/cyber)
 * [cito](https://github.com/pfusik/cito)
+* [thinscript](https://github.com/evanw/thinscript)
 
-## terminalizer
+## Animated terminal
 
  * https://terminalizer.com/
  * https://asciinema.org/explore/featured

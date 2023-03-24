@@ -1,5 +1,13 @@
 # analogs
 
+## apple watch ui
+
+* https://codepen.io/AndrisJefimovs/pen/JjGogaq
+* https://codeburst.io/deconstructing-the-iconic-apple-watch-bubble-ui-aba68a405689
+* https://codepen.io/anon/pen/myqamE
+* https://www.npmjs.com/package/react-bubble-ui?activeTab=readme
+* https://dzinlife.com/Apple-Watch-Spring-Board/
+
 ## audio languages
 
 * [tilt](https://github.com/munshkr/tilt)

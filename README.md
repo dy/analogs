@@ -29,6 +29,7 @@
 * [cyber](https://github.com/fubark/cyber)
 * [cito](https://github.com/pfusik/cito)
 * [thinscript](https://github.com/evanw/thinscript)
+* [poetry](https://github.com/FantasyInternet/poetry/)
 
 ## Animated terminal
 

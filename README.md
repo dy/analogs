@@ -31,6 +31,7 @@
 * [thinscript](https://github.com/evanw/thinscript)
 * [poetry](https://github.com/FantasyInternet/poetry/)
 * [lys](https://www.npmjs.com/package/lys)
+* [WebBS](https://github.com/mx-scissortail/WebBS)
 
 ## Animated terminal
 

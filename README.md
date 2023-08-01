@@ -1,5 +1,14 @@
 # analogs
 
+## CLI
+
+* meow
+* [vorpal](https://github.com/dthree/vorpal)
+* [commander](https://www.npmjs.com/package/commander)
+* [inquirer](https://www.npmjs.com/package/inquirer)
+* [args](https://github.com/leo/args)
+* [arg](https://github.com/vercel/arg)
+
 ## apple watch ui
 
 * https://codepen.io/AndrisJefimovs/pen/JjGogaq

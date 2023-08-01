@@ -64,6 +64,8 @@
 
 * noty
 * js-notifier
+* https://github.com/timolins/react-hot-toast
+* https://github.com/emilkowalski/sonner
 
 ## preact/signals
 

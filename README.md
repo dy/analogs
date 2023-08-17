@@ -41,6 +41,7 @@
 * [poetry](https://github.com/FantasyInternet/poetry/)
 * [lys](https://www.npmjs.com/package/lys)
 * [WebBS](https://github.com/mx-scissortail/WebBS)
+* [ToyLang](https://github.com/JustinSDK/toy_lang)
 
 ## Animated terminal
 

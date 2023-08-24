@@ -1,5 +1,9 @@
 # analogs
 
+## QuickJS
+
+* https://github.com/NerdLang/nerd
+
 ## CLI
 
 * meow

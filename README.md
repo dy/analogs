@@ -46,6 +46,7 @@
 * [lys](https://www.npmjs.com/package/lys)
 * [WebBS](https://github.com/mx-scissortail/WebBS)
 * [ToyLang](https://github.com/JustinSDK/toy_lang)
+* [schism](https://github.com/dominikrys/schism)
 
 ## Animated terminal
 

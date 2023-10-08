@@ -766,6 +766,7 @@
 * [leva](https://github.com/pmndrs/leva)
 * [uil](https://github.com/lo-th/uil)
 * [control-kit](https://github.com/automat/controlkit.js/)
+* [lil-gui](https://github.com/georgealways/lil-gui)
 
 ## haunted
 

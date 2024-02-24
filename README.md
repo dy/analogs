@@ -76,8 +76,10 @@
 ## preact/signals
 
 * [usignal](https://www.npmjs.com/package/usignal)
-* cellx
+* [@webreflection/signal](https://github.com/webreflection/signal)
 * value-ref
+* [ulive](https://www.npmjs.com/package/ulive)
+* [trkl](https://github.com/jbreckmckye/trkl)
 
 ## alpinejs
 

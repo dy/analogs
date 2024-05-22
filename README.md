@@ -191,6 +191,9 @@
 * uPlot
 * https://github.com/danchitnis/webgl-plot
 * https://github.com/huww98/TimeChart
+* [wavesurfer](https://wavesurfer-js.org/)
+* [waves-ui](https://github.com/wavesjs/waves-ui)
+
 
 ## [proposal-refs](https://github.com/rbuckton/proposal-refs#examples)
 

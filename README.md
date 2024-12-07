@@ -1,8 +1,17 @@
 # analogs
 
+## elevenlabs
+* rask.ai
+* https://www.speechlab.ai/
+
 ## QuickJS
 
 * https://github.com/NerdLang/nerd
+* subscript
+* jasm
+* porffor
+* bun
+* ...
 
 ## CLI
 

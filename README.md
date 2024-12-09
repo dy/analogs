@@ -7,11 +7,11 @@
 ## QuickJS
 
 * https://github.com/NerdLang/nerd
-* subscript
+* justin
 * jasm
 * porffor
 * bun
-* ...
+* https://github.com/ferus-web/bali
 
 ## CLI
 

@@ -1,5 +1,11 @@
 # analogs
 
+## bestchange.org
+
+* https://chexch.com/
+* https://kurs.expert/
+* https://www.okchanger.ru/
+
 ## elevenlabs
 * rask.ai
 * https://www.speechlab.ai/

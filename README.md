@@ -1,5 +1,12 @@
 # analogs
 
+## image 2 video
+* luma ray +end frame, -amorphic hallucinations
+* sora - no continuity, splits video on scenes
+* pika - not a single meaningful result
+* runwayml +end/mid rame -too shy, uncreative
+* replicate/minimax +good ideas -too fast results +realistic
+
 ## bestchange.org
 
 * https://chexch.com/

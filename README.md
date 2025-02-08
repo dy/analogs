@@ -1,5 +1,10 @@
 # analogs
 
+## Textarea syntax
+
+* https://github.com/adriancs2/Textarea-Syntax-Highlight?tab=readme-ov-file
+* https://github.com/kueblc/LDT
+
 ## image 2 video
 * luma ray +end frame, -amorphic hallucinations
 * sora - no continuity, splits video on scenes

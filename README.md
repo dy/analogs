@@ -1,6 +1,12 @@
 # analogs
 
-## Textarea syntax
+## virtual-scroll
+
+* lenis
+* virtual-scroll
+* scroll-timeline
+
+## Textarea syntax highlight
 
 * https://github.com/adriancs2/Textarea-Syntax-Highlight?tab=readme-ov-file
 * https://github.com/kueblc/LDT

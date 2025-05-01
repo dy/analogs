@@ -4,6 +4,10 @@
 
 * elevenlabs
 
+## document-persist-fragment
+
+* group-nodes https://github.com/WebReflection/group-nodes/tree/main
+
 ## virtual-scroll
 
 * lenis

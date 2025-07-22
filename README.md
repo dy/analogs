@@ -14,6 +14,9 @@
 * virtual-scroll
 * scroll-timeline
 
+## sal
+* aos (animate on scroll)
+
 ## Textarea syntax highlight
 
 * https://github.com/adriancs2/Textarea-Syntax-Highlight?tab=readme-ov-file

@@ -1,5 +1,16 @@
 # analogs
 
+## syntax highlighters
+
+* microlight
+* prism
+* rainbow.js
+* speed-highlight
+* google prettify
+* highlight.js
+* shiki
+
+
 ## acestudio.ai
 
 * elevenlabs

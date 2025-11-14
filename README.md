@@ -1,5 +1,17 @@
 # analogs
 
+## pagefind
+* lunr
+* fuse
+* flexsearch
+* orama / lyra
+* minisearch
+* elasticlunr
+* stork
+* tinysearch
+* pitchfork
+* jscene
+
 ## syntax highlighters
 
 * microlight

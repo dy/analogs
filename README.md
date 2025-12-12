@@ -1,5 +1,11 @@
 # analogs
 
+## pay services
+
+* stripe
+* lemonsqueezy
+* paypal
+
 ## pagefind
 * lunr
 * fuse

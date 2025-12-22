@@ -6,7 +6,7 @@
 * lemonsqueezy
 * paypal
 * polar.sh
-* 
+* shop
 
 ## pagefind
 * lunr

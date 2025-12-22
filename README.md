@@ -5,6 +5,8 @@
 * stripe
 * lemonsqueezy
 * paypal
+* polar.sh
+* 
 
 ## pagefind
 * lunr

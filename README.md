@@ -1,5 +1,10 @@
 # analogs
 
+## try
+
+* https://github.com/bdsqqq/try?tab=readme-ov-file
+* https://github.com/scopsy/await-to-js
+
 ## pay services
 
 * stripe

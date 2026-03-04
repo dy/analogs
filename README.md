@@ -148,6 +148,9 @@
 
 ## react-toastify
 
+* https://apvarun.github.io/toastify-js/#
+* https://vorojar.github.io/Physics-Toast/
+* https://github.com/caroso1222/notyf
 * noty
 * js-notifier
 * https://github.com/timolins/react-hot-toast

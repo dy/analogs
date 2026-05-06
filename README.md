@@ -12,6 +12,7 @@
 * paypal
 * polar.sh
 * shop
+* https://www.creem.io/
 
 ## pagefind
 * lunr
